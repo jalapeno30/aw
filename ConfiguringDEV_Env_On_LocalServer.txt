@@ -1,0 +1,103 @@
+                       WELCOME - NEW EMPLOYEE SYSTEM DEV SETUP PROCEDURE
+
+
+* Order of Prerequisites:
+    1. Java 1.7
+           - On local machine "C:", named "Java7"
+           - Open another explorer, go to "S:\Software\Projects\ILTS DataTrak Anywhere\Dev\Tools\Java7"
+           - In Java7, get and copy "jdk-7u79-windows-x64" INSTALLER file to local machine "Java7"
+           - Install Java7
+           - After installation, executable should be in PATH (ex. C:\<JAVA_HOME>\bin\java.exe)
+           - Define local ENV variable "JAVA_HOME"
+           - Define system ENV variable "CLASSPATH"
+
+    2. NodeJS
+           - On local machine "C:", named "NodeJS"
+           - Open another explorer, go to "S:\Software\Projects\ILTS DataTrak Anywhere\Dev\Tools\NodeJS"
+           - In NodeJS, get and copy "npm-1.4.9" ZIP file to local machine "NodeJS"
+           - Unzip NodeJS
+           - After installation, executable should be in PATH (ex. C:\<NODEJS_HOME>\node.exe)
+           - After installation, Windows Commands should be in PATH (ex. C:\<NODEJS_HOME>\npm.cmd)
+           - In <NODEJS_HOME>, should have following Windows Command:
+                 + bower.cmd
+                 + grunt.cmd
+                 + npm.cmd
+
+    3. Git
+           - On local machine "C:", named "Git"
+           - Open another explorer, go to "S:\Software\Projects\ILTS DataTrak Anywhere\Dev\Tools\Git"
+           - In Git, get and copy "Git-2.6.3-64" INSTALLER file to local machine "Git"
+           - Install Git
+           - After installation, executable should be in PATH (ex. C:\<GIT_HOME>\git.exe)
+           - In <GIT_HOME>, should have following "git.exe" in:
+                 + bin
+                 + cmd
+
+    4. Python
+           - On local machine "C:", named "Python"
+           - Open another explorer, go to "S:\Software\Projects\ILTS DataTrak Anywhere\Dev\Tools\Python"
+           - In Python, get and copy "python-2.7.10.amd64" INSTALLER file to local machine "Python"
+           - Install Python
+           - After installation, executable should be in PATH (ex. C:\<PYTHON_HOME>\python.exe)
+
+    5. Gradle
+           - On local machine "C:", named "Gradle"
+           - Open another explorer, go to "S:\Software\Projects\ILTS DataTrak Anywhere\Dev\Tools\Gradle"
+           - In Gradle, get and copy "gradle-2.6-bin" ZIP file to local machine "Gradle"
+           - Unzip Gradle
+           - After installation, executable and batch should be in PATH (ex. C:\<GRADLE_HOME>\bin\gradle)
+           - Define system ENV variable "GRADLE_HOME"
+
+    6. MySQL 5.7
+           - On local machine "C:", create a temp(orary) folder
+           - Open another explorer, go to "S:\Software\Projects\ILTS DataTrak Anywhere\Dev\Tools\MySQL"
+           - In MySQL, get and copy "mysql-installer-community-5.7.10.0" INSTALLER file to local machine "MySQL"
+           - Install MySQL  (most-likely be in C:\Program Files\MySQL\MySQL Server 5.7)
+           - After installation, executable should be in PATH (ex. C:\<MySQL_HOME>\bin\mysql.exe)
+           - Open "Command Prompt", execute the following commands:
+                 + mysql -u root -p
+                 + mysql> CREATE DATABASE lottery;
+                   mysql> GRANT ALL PRIVILEGES ON lottery.* TO 'lottery'@'localhost' IDENTIFIED BY 'lottery';
+ 		   mysql> update mysql.user SET super_priv = 'Y' where user = 'lottery' and host ='localhost';
+ 		   mysql> flush PRIVILEGES;
+                   mysql> exit (or quit)
+
+* Development Environment:
+    1. On local machine "C:", create a folder named "AW"
+    2. Open another explorer, go to "S:\Software\Projects\ILTS DataTrak Anywhere\Dev\AW"
+    3. In AW, get and copy following sub-folders to local machine "AW":
+           - ilts-web
+           - ilts-server
+    4. Open "Command Prompt", change directory to path where local machine has "AW" and to "ilts-web"
+    5. In the order, execute the followincd  commands:
+           - npm install
+           - bower install
+           - (optional) npm install -g grunt-cli    (if no grunt installed)
+           - grunt build
+    6. Open "Command Prompt", change directory to path where local machine has "AW" and to "ilts-server"
+    7. In the order, execute the following commands:
+           - cd script
+           - mysql -u lottery -p lottery < DBScript_schema.sql
+           - cd ..\..     (go back to ilts-server folder)
+           - .\gradlew build  (or)  .\gradlew.bat build
+
+
+* Run both web and server:
+    1. For SERVER
+           - Open "Command Prompt", change directory to path where local machine "~\AW\ilts-server"
+                 + java -jar build\libs\lottery-service-0.1.0.jar
+                 (or)
+                 + gradle bootRun
+
+    2. For WEB
+           - Open "Command Prompt", change directory to path where local machine "~\AW\ilts-web"
+                 + grunt serve     (Note: use URL - http://localhost:9002)
+
+
+C:\AW\ilts-server\src\main\java\com\ilts\anywhere\appconfig
+
+
+
+
+
+

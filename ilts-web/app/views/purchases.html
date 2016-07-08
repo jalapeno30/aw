@@ -1,0 +1,41 @@
+<div class="col-md-12">
+	<h3 class="col-md-10" translate>PAGE_HEADINGS.PURCHASES</h3>
+</div>
+<div class="col-md-1">&nbsp;</div>
+<div class="col-md-10">
+	<ul class="list-group">
+		<li class="list-group-item row" ng-repeat="checkout in checkouts track by $index">
+			<div class="col-md-5">
+				<!-- <strong>Confirmation ID:</strong> {{checkout.bettingConfirmation}}<br /> -->
+				<em>{{checkout.date}}</em>
+			</div>
+			<div class="col-md-5">
+				P {{checkout.cost.toFixed(2)}}<br />
+				{{checkout.status}}
+			</div>
+			<div class="col-md-2">
+				<!-- <button translate class="btn btn-sm btn-warning" ng-click="toggleCheckoutDetails(checkout.id)">PURCHASES.DETAILS</button> -->
+			</div>
+			<div class="col-md-12 checkout-details well" ng-show="showDetails[checkout.id]">
+				<p><strong><span translate>PURCHASES.GAME</span>: </strong>{{checkout.gameName}}</p>
+				<p><strong><span translate>PURCHASES.DRAW</span>: </strong>{{checkout.drawDate}}</p>
+				<p><strong><span translate>PURCHASES.SYSTEM</span>: </strong>{{checkout.system}}</p>
+				<p><strong><span translate>PURCHASES.NUMBERS</span>: </strong>
+					<span ng-repeat="numbers in order.numbers" ng-show="numbers.numbers.length > 0"><br />
+						<strong>{{numbers.label}}:&nbsp;</strong>
+						<span ng-repeat="number in numbers.numbers">{{number}} </span>
+						<span ng-show="numbers.lucky">&nbsp;(LP)</span>
+					</span>
+				</p>
+				<p><strong><span translate>PURCHASES.AMOUNT</span>: </strong>P {{checkout.cost.toFixed(2)}}</p>
+				
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="col-md-1">&nbsp;</div>
+<!-- <div class="col-md-12">
+	<button class="btn btn-danger" ng-click="clearHistory()">
+		Clear Purchase History
+	</button>
+</div> -->

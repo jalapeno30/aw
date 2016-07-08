@@ -1,0 +1,7 @@
+build
+.gradle
+bin
+
+*.db
+/.nb-gradle/
+/dist/

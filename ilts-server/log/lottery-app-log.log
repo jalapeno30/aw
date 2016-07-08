@@ -1,0 +1,1470 @@
+[   INFO] 20160629172519 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :8
+[   INFO] 20160629172519 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629172626 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :5R
+[   INFO] 20160629172626 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629172645 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :6
+[   INFO] 20160629172645 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629172759 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :12
+[   INFO] 20160629172759 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629172931 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :10
+[   INFO] 20160629172931 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629173343 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629173343 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629173343 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629173343 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629173422 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629173422 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629173423 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629173424 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629173437 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :12
+[   INFO] 20160629173437 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629173515 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :12
+[   INFO] 20160629173515 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629173544 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :9
+[   INFO] 20160629173544 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629173711 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :9
+[   INFO] 20160629173711 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629173935 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629173935 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629173935 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629173935 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629174008 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629174008 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174009 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174009 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174010 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174019 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :12
+[   INFO] 20160629174019 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629174041 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :12
+[   INFO] 20160629174041 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629174454 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629174454 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629174454 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629174454 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629174509 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629174509 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174513 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174514 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174514 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174514 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629174514 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174514 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174514 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174514 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629174514 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629174521 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :12
+[   INFO] 20160629174521 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629174533 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :12
+[   INFO] 20160629174533 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629175743 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629175743 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175744 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629175744 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175744 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175744 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175744 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629175744 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629175753 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :6
+[   INFO] 20160629180243 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629180324 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :6
+[   INFO] 20160629180324 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629180402 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :6
+[   INFO] 20160629180402 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629180723 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629180723 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629180723 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629180723 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629180806 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629180806 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629180808 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629180833 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :8
+[   INFO] 20160629180833 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629181238 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :8
+[   INFO] 20160629181238 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629182417 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629182417 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629182417 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629182417 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629182440 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629182440 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182442 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160629182453 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::SQLException/Hibernate Exception - The database returned no natively generated identity value
+org.hibernate.id.IdentifierGeneratorHelper.getGeneratedIdentity(IdentifierGeneratorHelper.java:91)
+org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:100)
+org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3556)
+org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:97)
+org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:480)
+org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:191)
+org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:175)
+org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:210)
+org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:711)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:703)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:698)
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:73)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160629182453 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160629182524 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629182524 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629182534 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160629182543 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::SQLException/Hibernate Exception - The database returned no natively generated identity value
+org.hibernate.id.IdentifierGeneratorHelper.getGeneratedIdentity(IdentifierGeneratorHelper.java:91)
+org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:100)
+org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3556)
+org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:97)
+org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:480)
+org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:191)
+org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:175)
+org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:210)
+org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:711)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:703)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:698)
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:73)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160629182543 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160629182949 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629182949 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629182949 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629182949 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629183003 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629183003 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183004 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629183004 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183004 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183004 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183005 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160629183029 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::SQLException/Hibernate Exception - The database returned no natively generated identity value
+org.hibernate.id.IdentifierGeneratorHelper.getGeneratedIdentity(IdentifierGeneratorHelper.java:91)
+org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:100)
+org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3556)
+org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:97)
+org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:480)
+org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:191)
+org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:175)
+org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:210)
+org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:711)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:703)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:698)
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:73)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160629183029 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160629183549 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629183549 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629183549 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629183549 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629183612 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629183612 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629183638 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629183639 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160629183656 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::SQLException/Hibernate Exception - The database returned no natively generated identity value
+org.hibernate.id.IdentifierGeneratorHelper.getGeneratedIdentity(IdentifierGeneratorHelper.java:91)
+org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:100)
+org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3556)
+org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:97)
+org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:480)
+org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:191)
+org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:175)
+org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:210)
+org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:711)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:703)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:698)
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:73)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160629183656 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160629184057 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629184057 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629184057 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629184057 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629184116 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629184116 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184127 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160629184135 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::SQLException/Hibernate Exception - ids for this class must be manually assigned before calling save(): com.ilts.anywhere.cart.Orders
+org.hibernate.id.Assigned.generate(Assigned.java:52)
+org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:117)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:711)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:703)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:698)
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:73)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160629184135 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160629184347 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160629184347 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160629184347 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160629184347 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160629184359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160629184359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160629184407 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160629184412 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :8
+[   INFO] 20160629184412 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629184604 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :9
+[   INFO] 20160629184604 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160629184621 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  null and system :9
+[   INFO] 20160629184621 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160630095201 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160630095201 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160630095201 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160630095201 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160630095241 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160630095241 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095242 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630095243 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160630095345 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::SQLException/Hibernate Exception - could not execute statement
+org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
+org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+org.hibernate.id.insert.AbstractSelectingDelegate.performInsert(AbstractSelectingDelegate.java:61)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3556)
+org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:97)
+org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:480)
+org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:191)
+org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:175)
+org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:210)
+org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:711)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:703)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:698)
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:73)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160630095345 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160630102700 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160630102700 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160630102700 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160630102700 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[ SEVERE] 20160630102801 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::SQLException/Hibernate Exception - could not execute statement
+org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
+org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+org.hibernate.id.insert.AbstractSelectingDelegate.performInsert(AbstractSelectingDelegate.java:61)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3556)
+org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:97)
+org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:480)
+org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:191)
+org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:175)
+org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:210)
+org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:209)
+org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:194)
+org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49)
+org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:711)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:703)
+org.hibernate.internal.SessionImpl.save(SessionImpl.java:698)
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:73)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160630102801 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160630154337 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160630154337 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160630154337 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160630154337 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160630154358 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160630154358 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630154359 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160630154410 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::Exception - PreparedStatementCallback; SQL [INSERT INTO orders_numbers(order_id, numbers) VALUES(?, ?)]; Column 'order_id' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'order_id' cannot be null
+org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:86)
+org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:660)
+org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:909)
+org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:970)
+org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:980)
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:78)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160630154410 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160630162254 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160630162254 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160630162254 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160630162254 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160630162301 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160630162301 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162303 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162304 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160630162313 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::Exception - <No Message>
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:92)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160630162313 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160630162421 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160630162421 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160630162421 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160630162421 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160630162428 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160630162428 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162430 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162430 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162430 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630162430 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162430 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630162430 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162430 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162430 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162431 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160630162435 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::Exception - <No Message>
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:85)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160630162435 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160630162539 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160630162539 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160630162539 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160630162539 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160630162546 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160630162546 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162547 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630162547 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162547 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160630162547 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162547 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162547 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162547 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162547 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160630162548 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[ SEVERE] 20160630162552 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::Exception - <No Message>
+com.ilts.anywhere.cart.JdbcOrderDAO.insert(JdbcOrderDAO.java:92)
+com.ilts.anywhere.cart.CartService.insertOrder(CartService.java:84)
+com.ilts.anywhere.cart.CartController.addOrder(CartController.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160630162552 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for placing Order: Making error response and set Status to 'error'
+[   INFO] 20160705140424 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160705140424 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160705140424 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160705140424 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[ SEVERE] 20160705140538 (com.ilts.anywhere.logging.utils.LogUtils,logException,93)::ConstraintViolationException | SQLException - could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:72)
+org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190)
+org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3587)
+org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:103)
+org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:453)
+org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:345)
+org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1218)
+org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:421)
+org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+com.ilts.anywhere.authentication.UserDAOImpl.registerUserLogic(UserDAOImpl.java:208)
+com.ilts.anywhere.authentication.UserDAOImpl.register(UserDAOImpl.java:125)
+com.ilts.anywhere.authentication.UserDAOImpl.register(UserDAOImpl.java:72)
+com.ilts.anywhere.authentication.AuthenticationService.registerUser(AuthenticationService.java:114)
+com.ilts.anywhere.authentication.AuthenticationController.register(AuthenticationController.java:169)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+com.ilts.anywhere.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:22)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+
+[  DEBUG] 20160705140538 (com.ilts.anywhere.utils.Logger,logMsg,36)::ErrorResponse for Registration: Making error response and set Status to 'error'
+[   INFO] 20160705141401 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160705141401 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160705141401 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160705141401 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160705141410 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully Registered  sdfsd
+[   INFO] 20160705141410 (com.ilts.anywhere.utils.Logger,logMsg,36)::RegistrationSuccessResponse: Making success response and set Status to 'success' for Registration
+[   INFO] 20160705141619 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160705141619 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705141645 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160705141645 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143642 (com.ilts.anywhere.utils.Logger,logMsg,36)::FileLogPath=C:\Josephs\Current\ilts-server\log\lottery-app-log.log
+[   INFO] 20160705143642 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogFileSize=5
+[   INFO] 20160705143642 (com.ilts.anywhere.utils.Logger,logMsg,36)::LogTypes=SEVERE|INFO|DEBUG
+[   INFO] 20160705143642 (com.ilts.anywhere.utils.Logger,logMsg,36)::DetailedLogInfo=True
+[   INFO] 20160705143727 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160705143727 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705143731 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705143746 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  com.List_Test.Games[ gameId=19284e3c-3fb5-11e6-b0b3-64006a4ba62f ] and system :9
+[   INFO] 20160705143746 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160705143755 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  com.List_Test.Games[ gameId=19284e3c-3fb5-11e6-b0b3-64006a4ba62f ] and system :9
+[   INFO] 20160705143755 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160705143909 (com.ilts.anywhere.utils.Logger,logMsg,36)::Successfully placed order for  com.List_Test.Games[ gameId=1929a0ce-3fb5-11e6-b0b3-64006a4ba62f ] and system :12
+[   INFO] 20160705143909 (com.ilts.anywhere.utils.Logger,logMsg,36)::OrderPlacedSuccessResponse: Making success response and set Status to 'success' for adding Order 
+[   INFO] 20160705144118 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160705144118 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144119 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching available Draws by Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705144120 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[  DEBUG] 20160705151128 (com.ilts.anywhere.utils.Logger,logMsg,36)::Invalid username or password for Admin
+[   INFO] 20160705151128 (com.ilts.anywhere.utils.Logger,logMsg,36)::ForbiddenLoginResponse: Forbibben response response and set data Status to 'error' for Login
+[   INFO] 20160705151137 (com.ilts.anywhere.utils.Logger,logMsg,36)::Success Login 
+[   INFO] 20160705151137 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in fetching Games 
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::Succes in display Numbers and requirements for Game 
+[   INFO] 20160705151139 (com.ilts.anywhere.utils.Logger,logMsg,36)::AcceptedLoginResponse: Making success response and set data Status to 'success' for Login

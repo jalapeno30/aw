@@ -1,0 +1,11 @@
+<div class="col-md-12">
+    <div>
+        <tabset id="gameTabs" style="padding: 0 10px">
+            <!--<bet-game ng-repeat="game in bet.games" game="game"></bet-game>-->
+            <tab ng-repeat="game in bet.games" heading="{{ game.gameName }}">
+                <bet-game game="game"></bet-game>
+                <shopping-cart></shopping-cart>
+            </tab>
+        </tabset>
+    </div>
+</div>

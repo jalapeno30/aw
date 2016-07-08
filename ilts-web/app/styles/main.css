@@ -1,0 +1,328 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+//change 
+.hideX.ng-hide {
+    visibility: hidden;
+    display: block !important;
+}
+
+#number-alert{
+    box-shadow: 0 0 20px rgb(139, 0, 0);
+    text-align: center;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+body {
+  background: rgb(173, 173, 173);
+  background: url(../images/ignore/bg-lottery.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.entry-button {
+  height: 80px;
+  width: 80px;
+  border: 1px solid gray;
+  background: gray;
+  color: white;
+}
+.entry-title {
+  border-bottom: 1px solid black;
+  height: 20px;
+  text-align: center;
+}
+.entry-desc {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 16px;
+}
+.btn-num {
+  width: 30px;
+}
+#lottery-table tr > td, td[game-number] {
+  cursor: pointer;
+  text-align: center;
+}
+#lottery-table tr > td.disabled {
+  cursor: not-allowed;
+  color: gray;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    /*max-width: 730px;*/
+  }
+  .container-fluid {
+    padding: 0 10px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Custom */
+
+#logo {
+  width: 100%;
+}
+
+.top-nav-button {
+  background: rgb(132, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.top-nav-button:hover {
+  font-weight: bold;
+  color: rgb(132, 0, 0);
+  background: rgb(255, 255, 255);
+}
+#main-area {
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.9);
+}
+.entry-buttons {
+  margin: 5px 0px;
+  min-width: 95px;
+}
+
+.entry-buttons.active {
+  background: rgb(132, 0, 0) !important;
+}
+
+.selected-number {
+  text-align: center;
+}
+
+.announcement-container, .game-container {
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.announcement-heading, .game-heading, .results-blurb-heading, .video-blurb-heading {
+  background: rgb(159, 159, 159);
+  color: white;
+}
+
+#results {
+  margin-bottom: 10px;
+}
+
+.announcement, .game, .result-blurb {
+  padding: 20px;
+  border: 1px solid rgb(214, 214, 214);
+  height: 200px;
+  overflow: hidden;
+}
+
+.result-blurb-single > div > p {
+  text-align: center;
+}
+.result-blurb-single > div > img {
+  margin: 0 auto;
+}
+
+.result-blurb-number {font-weight: bold;}
+.result-blurb-prize {font-style: italic;}
+.result-blurb-winner {color: rgb(132, 0, 0);}
+
+.announcement-footer {
+  padding: 10px;
+  background: rgb(132, 0, 0);
+  color: white;
+}
+
+.announcement-footer a {
+  color: white;
+}
+
+.announcement-image img, .game-image img {
+  margin: 0 auto;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.selected-in-table {
+  background: rgb(132, 0, 0) !important;
+  color: white;
+}
+
+.label-table > tbody > tr > td {
+  border: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+    border-top: 1px solid #e5e5e5;
+    background-color: rgb(132, 0, 0);
+}
+
+.nav  {
+  cursor: pointer;
+}
+
+.dropdown-menu-select{
+    width:100%
+}
+
+#orders {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 10px;
+  overflow: hidden;
+  margin: 30px 0px;
+}
+
+.orders-header {
+  border-bottom: 1px solid rgb(132, 0, 0);
+  background: rgb(132, 0, 0);
+  color: white;
+}
+
+.orders-footer {
+  border-top: 1px solid rgb(209, 209, 209);
+  background: rgb(209, 209, 209);
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.orders-total {
+  color: rgb(132, 0, 0);
+}
+
+.orders-content {
+  padding-top: 10px;
+}
+
+.numberSet > table {
+  margin-bottom: 5px;
+}
+.numberSet > table.active {
+  outline: none;
+  border-color: rgb(139, 0, 0);
+  box-shadow: 0 0 20px rgb(139, 0, 0);
+}
+.numberSet > table.active > tbody > tr > td {
+  background: rgba(139, 0, 0, 0.2);
+}
+.numberSet > table.lucky > tbody > tr > td {
+  background: yellow !important;
+}
+
+.order-item {
+  border: 1px solid rgb(139, 0, 0);
+  padding: 0;
+  overflow: hidden;
+}
+.order-item-header {
+  background: rgb(240, 240, 240);
+  border-bottom: 1px solid rgb(209, 209, 209);
+  padding: 5px;
+}
+.order-item-content {
+  padding: 5px;
+}
+
+.growl {
+  top: 60px;
+  z-index: 2000;
+}
+
+.language-settings-well {
+  border: 1px solid #f0f0f0;
+  background: white;
+  padding: 10px;
+}
+
+.language-settings-sub-well {
+  background: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .hide-small {
+    display:none;
+  }
+
+  .announcement, .game {
+    height: auto;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

@@ -1,0 +1,29 @@
+<div class="col-md-12">
+  <h3 translate>Profile</h3>
+</div>
+<div class="col-md-1">&nbsp;</div>
+<div class="col-md-10">
+	<div ng-show="!paypal.loggedIn">
+		<span id="myContainer"></span>
+
+		<script>
+      if (typeof paypal !== 'undefined'){
+        paypal.use( ["login"], function(login) {
+          login.render ({
+            "appid": "Ab-C3RCJH_5gDPZDStPNKRBk5gwbi_SCd8zdVA17rz9vlGk2YUzkJ5ifWE5H",
+            "authend": "sandbox",
+            "scopes": "profile email",
+            "containerid": "myContainer",
+            "locale": "en-us",
+            "returnurl": "http://127.0.0.1:9000/#/paypal-callback"
+          });
+        });
+      }
+
+		</script>
+	</div>
+	<div ng-show="paypal.loggedIn">
+		<h4>Paypal Profile</h4>
+	</div>
+</div>
+<div class="col-md-1">&nbsp;</div>

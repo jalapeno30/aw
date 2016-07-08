@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h4>Login</h4>
+</div>
+<div class="modal-body">
+    <form name="loginModal" class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="username" class="col-sm-2 col-xs-12">Username<font color="red">*</font></label>
+            <div class="col-sm-10 col-xs-12">
+                <input type="text" class="form-control" name="username" id="username" ng-model="user.name" ng-keyup="$event.keyCode == 13 ? submitLoginForm() : null" ng-maxlength="20" ng-required="true" />
+                <span class="error alert-warning" id="username_error" ng-show="username_error"><i class="glyphicon glyphicon-exclamation-sign"></i>Please fill out this field.</span><br>
+                <span class="error alert-warning" ng-show="loginModal.username.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 20</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 col-xs-12" for="password">Password<font color="red">*</font></label>
+            <div class="col-sm-10 col-xs-12">
+                <input type="password" class="form-control" name="password" id="password" ng-model="user.password" ng-keyup="$event.keyCode == 13 ? submitLoginForm() : null" ng-maxlength="25" ng-required="true" />
+                <span class="error alert-warning" id="password_error" ng-show="password_error"><i class="glyphicon glyphicon-exclamation-sign"></i>Please fill out this field.</span><br>
+                <span class="error alert-warning" ng-show="loginModal.password.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 25</span>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <a href="" style="position: absolute; left: 20px" ng-click="requestForgotPassword()">Forgot password</a>
+    <button class="btn btn-primary" ng-click="loginOk()">OK</button>
+    <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+    <div style="position: absolute; bottom: 0; left: 0; font-size: 11px; margin-left: 5px"><font color="red">*</font> Required fields</div>
+</div>

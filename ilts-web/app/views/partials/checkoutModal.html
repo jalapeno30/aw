@@ -1,0 +1,31 @@
+<div class="modal-header">
+    <h4>Checkout</h4>
+</div>
+<div class="modal-body">
+  <h5>Order Summary:</h5>
+  <div class="row">
+    <div ng-repeat="order in orders" class="col-md-6 col-xs-12 well">
+      <strong>Game: </strong>{{order.gameName}}<br />
+      <strong>Draw:</strong>{{order.drawDate}}<br />
+      <strong>System: </strong>{{order.system}}<br />
+      <strong>Numbers: </strong>
+        <span ng-repeat="numbers in order.numbers" ng-show="numbers.length > 0"><br />
+          <!-- <strong>{{numbers.label}}:&nbsp;</strong> -->
+          <span ng-repeat="number in numbers">{{number}} </span>  
+          <span ng-show="numbers.lucky">&nbsp;(LP)</span>
+        </span>
+      <br />
+      <strong>Amount: </strong>P {{order.orderCost.toFixed(2)}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <strong>Total Cost: </strong>P {{totalAmount}}
+    </div>
+  </div>
+  <h5>Are you sure you want to checkout?</h5>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="checkoutOk()">OK</button>
+    <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+</div>

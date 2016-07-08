@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<games>
+	<game>
+		<name>Grand Lotto 6/55</name>
+		<numbers>55</numbers>
+		<cost>20</cost>
+		<logo>images/ignore/grand-lotto.jpg</logo>
+	</game>
+	<game>
+		<name>Super Lotto 6/49</name>
+		<numbers>49</numbers>
+		<cost>20</cost>
+		<logo>images/ignore/superloto-banner.jpg</logo>
+	</game>
+	<game>
+		<name>Mega Lotto 6/45</name>
+		<numbers>45</numbers>
+		<cost>20</cost>
+		<logo>images/ignore/megaloto-banner.jpg</logo>
+	</game>
+	<game>
+		<name>Lotto 6/42</name>
+		<numbers>42</numbers>
+		<cost>20</cost>
+		<logo>images/ignore/loto-banner.jpg</logo>
+	</game>
+</games>

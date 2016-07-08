@@ -1,0 +1,7 @@
+<div class="btn-group btn-group-justified" id="navigation">
+    <div class="btn-group" ng-repeat="menu in navButtons.menus | userRestrictedNav:navButtons.logged" ng-if="(!navButtons.menu.admin && !navButtons.isAdmin) || (navButtons.isAdmin && !navButtons.menu.nonadmin)">
+        <a type="button" class="btn btn-default top-nav-button" ng-href="{{menu.url}}" ng-click="navButtons.updateHeading(menu.name)">
+            <span class="glyphicon glyphicon-{{menu.icon}}"></span> <span class="hide-small" translate>{{ menu.name }}</span></span>
+        </a>
+    </div>
+</div>

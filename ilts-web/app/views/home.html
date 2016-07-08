@@ -1,0 +1,71 @@
+<div class="col-md-12">
+  <h3 translate>PAGE_HEADINGS.HOME</h3>
+</div>
+<div class="col-md-12">
+	<div class="row" id="announcements">
+		<div class="col-md-1 col-sm-1 col-xs-1">&nbsp;</div>
+		<div class="col-md-10 col-sm-10 col-xs-10 announcement-container">
+			<div class="row announcement-heading">
+				<div class="col-md-12">
+					<h4 translate>HOME.ANNOUNCEMENTS</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div ng-repeat="announcement in announcements" class="col-md-6 announcement">
+					<div class="row">
+						<div class="col-md-3 col-sm-4 col-xs-5 vcenter announcement-image">
+							<img class="img-responsive" ng-src="{{announcement.featureImage}}" />
+						</div>
+						<div class="col-md-8 col-sm-7 col-xs-6 vcenter">
+							<h5>{{announcement.title}}</h5>
+							<p>{{announcement.content}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row announcement-footer">
+				<div class="pull-right">
+					<a ng-href="" href="" translate>HOME.MORE_ANNOUNCEMENTS</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1 col-sm-1 col-xs-1">&nbsp;</div>
+	</div>
+
+	<div class="row" id="results">
+		<div class="col-md-1 col-sm-1 col-xs-1">&nbsp;</div>
+
+		<div class="col-md-10 col-sm-10 col-xs-10" id="results-blurb">
+			<div class="row results-blurb-heading">
+				<div class="col-md-12">
+					<h4 translate>HOME.RESULTS</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div ng-repeat="result in results" class="col-md-6 result-blurb">
+					<div class="row result-blurb-single">
+						<div class="col-md-12">
+							<img class="img-responsive" ng-src="{{result.logo}}" />
+						</div>
+						<div>&nbsp;</div>
+						<div class="col-md-12">
+							<p class="result-blurb-number">{{result.result}}</p>
+							<p class="result-blurb-prize">P {{result.prize}}</p>
+							<p class="result-blurb-winner" translate translate-values="{result: result}">HOME.WINNERS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="col-md-5 col-sm-10 col-xs-10" id="video-blurb">
+			<div class="row video-blurb-heading">
+				<div class="col-md-12">
+					<h4>Video</h4>
+				</div>
+			</div>
+		</div> -->
+
+		<div class="col-md-1 col-sm-1 col-xs-1">&nbsp;</div>
+	</div>
+</div>

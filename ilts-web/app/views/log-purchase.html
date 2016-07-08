@@ -1,0 +1,29 @@
+<div class="col-md-12">
+    <h3>Logs</h3>
+</div>
+
+<div class="col-md-1">&nbsp;</div>
+
+<div class="col-md-10">
+    <h4>Purchase Logs</h4>
+
+    <div class="col-sm-12">
+        <div class="table-responsive">
+            <table ng-table="purchases.tableParams" class="table table-bordered table-hover">
+
+                <tr ng-repeat="recoveryRow in $data">
+                    <td data-title="'ID'" sortable="'id'">{{ recoveryRow.id }}</td>
+                    <td data-title="'Cost'" sortable="'cost'">{{ recoveryRow.cost }}</td>
+                    <td data-title="'Date'" sortable="'date'">{{ recoveryRow.date | date : 'medium' }}</td>
+                    <td data-title="'Status'" sortable="'status'">{{ recoveryRow.status }}</td>
+                    <td data-title="'Active?'" sortable="'statusActive'">{{ recoveryRow.statusActive }}</td>
+                    <td data-title="'Created'" sortable="'statusCreated'">{{ recoveryRow.statusCreated | date : 'medium' }}</td>
+                    <td data-title="'Modified'" sortable="'statusModified'">{{ recoveryRow.statusModified | date : 'medium' }}</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+</div>
+<div class="col-md-1">&nbsp;</div>

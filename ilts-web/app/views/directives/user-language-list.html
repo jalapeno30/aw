@@ -1,0 +1,8 @@
+<span>
+    <form class="navbar-form navbar-right">
+        <div class="form-group">
+            <select class="form-control input-sm" ng-model="userLanguageList.language.selected" ng-options="lang.id as lang.text for lang in userLanguageList.languages" ng-change="userLanguageList.updateLanguage()">
+            </select>
+        </div>
+    </form>
+</span>

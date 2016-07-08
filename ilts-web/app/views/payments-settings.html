@@ -1,0 +1,27 @@
+<div class="row">
+
+  <div class="col-sm-12">
+    <h4>Payments</h4>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="table-responsive">
+      <table ng-table="paymentSettings.tableParams" class="table table-bordered table-hover">
+
+        <tr ng-repeat="payment in $data">
+
+          <td data-title="'Name'" sortable="'name'">{{ payment.name }}</td>
+          <td data-title="'Username'" sortable="'username'">{{ payment.username }}</td>
+          <td data-title="'User ID'" sortable="'userid'">{{ payment.userid }}</td>
+          <td data-title="'Status'" sortable="'status'">
+            <span class="label label-warning" ng-if="payment.status=='Inactive'">Inactive</span>
+            <span class="label label-success" ng-if="payment.status=='Active'">Active</span>
+          </td>
+
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+</div>

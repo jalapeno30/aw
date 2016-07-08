@@ -1,0 +1,23 @@
+/*
+ * Copyright (c) 2010-2016 International Lottery & Totalizator Systems, Inc.
+ *
+ * File: ResponseType.java
+ */
+package com.ilts.anywhere.response;
+
+public enum ResponseType {
+	ERROR,
+	SUCCESSBETPLACE,
+	SUCCESSSAVETICKET,
+	SUCCESSCANCELBET,
+	SUCCESSREGISTER,
+        SUCCESSSENDPASSWORD,
+	SUCCESSLOGIN,
+	SUCCESSNEWORDER,
+	CONFIRMFUNDINGPAYPAL,
+	SUCCESSCHANGESTATUS,
+	SUCCESSCHANGEROLE,
+	SUCCESSVALIDSESSION,
+	ERRORINVALIDSESSION,
+	SUCCESSDATA
+}
