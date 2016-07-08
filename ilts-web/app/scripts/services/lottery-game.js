@@ -131,7 +131,7 @@ function LotteryGame($http, ENV, $filter, $rootScope) {
         var numberSet = numberSets.filter(function(numSet){
             return numSet.game === gameId;
         });
-
+               
         return numberSet.length === 0 ? [] : numberSet[0].sets.filter(function(numSet) {
             return numSet.current;
         })[0].numbers;        

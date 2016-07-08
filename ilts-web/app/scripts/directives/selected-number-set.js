@@ -30,7 +30,8 @@ function selectedNumberSet(LotteryGame, $rootScope) {
         vm.numberRange = [];
         vm.numberSets = LotteryGame.getNumberSets(vm.game.gameId);
         vm.currentSet = 0;
-        vm.luckyPicks = LotteryGame.getLuckyNumberSets(vm.game.gameId);
+//        vm.luckyPicks = LotteryGame.getLuckyNumberSets(vm.game.gameId);
+        vm.luckyPicks;
 
         $rootScope.$on('changeNumberSet-' + vm.game.gameId, function(e, numSets) {
             $scope.$evalAsync(function() {
@@ -45,7 +46,9 @@ function selectedNumberSet(LotteryGame, $rootScope) {
         };
 
         vm.isLucky = function(idx) {
-            return vm.luckyPicks.indexOf(idx)>-1;
+            if (typeof vm.luckyPicks !== "undefined"){
+                return vm.luckyPicks.indexOf(idx)>-1;
+            }
         };
         
         

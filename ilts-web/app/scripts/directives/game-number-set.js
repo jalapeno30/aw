@@ -34,7 +34,6 @@ function gameNumberSet(LotteryGame, $timeout) {
         vm.alertMessage="";
         vm.alert=false;
         vm.isSelected = function(number) {
-            number
             return vm.currentNumberSet.indexOf(number)>-1;
         }
 
@@ -46,7 +45,7 @@ function gameNumberSet(LotteryGame, $timeout) {
                 vm.numberSets = _generateSplitNumbers(vm.numbers, vm.split);
                 LotteryGame.initNumberSets(vm.game.gameId)
             });          
-        }
+        };
     }
 
     function gameNumberSetLink(scope, elem, attrs, ctrl) {
@@ -95,10 +94,10 @@ function gameNumberSet(LotteryGame, $timeout) {
                         console.log(ctrl.alert);
                     })
 
-                     //remove first element and add selected number
-                    var firstNumber = LotteryGame.getCurrentNumberSet(ctrl.game.gameId)[0];
-                    LotteryGame.removeNumberFromCurrSet(ctrl.game.gameId, firstNumber);
-                    LotteryGame.addNumberToCurrSet(ctrl.game.gameId, number);
+                     //remove first element and add selected number NOT NEEDED ANYMORE  
+//                    var firstNumber = LotteryGame.getCurrentNumberSet(ctrl.game.gameId)[0];
+//                    LotteryGame.removeNumberFromCurrSet(ctrl.game.gameId, firstNumber);
+//                    LotteryGame.addNumberToCurrSet(ctrl.game.gameId, number);
                 }
             }
         };
