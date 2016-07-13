@@ -1,0 +1,140 @@
+<div class="col-md-12">
+    <h3>Register</h3>
+</div>
+<div class="col-md-12">
+    <form class="form-horizontal" name="registerForm" role="form">
+        <div class="col-sm-2">&nbsp;</div>
+        <div class="col-sm-8 col-xs-12 pre-scrollable">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_user_name">Username<font color="red">*</font></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_user_name" id="register_user_name" placeholder="Username" ng-model="user.user_name" ng-maxlength="20" errmsg="false" ng-change="resetEntryErrorStatus('user_name')" ng-required="true" />
+                    <span class="error alert-warning" ng-show="registerForm.register_user_name.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 20</span>
+                    <span id="alert_register_user_name" class="error alert-warning" ng-show="getEntryErrorStatus('user_name')"><i class="glyphicon glyphicon-exclamation-sign"></i>Any Message here</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_password">Password<font color="red">*</font></label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="register_password" id="register_password" placeholder="Password" ng-model="user.password" ng-maxlength="25" ng-required="true" />
+                    <span class="error alert-warning" ng-show="registerForm.register_password.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 20</span>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_first_name">First Name<font color="red">*</font></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_first_name" id="register_first_name" placeholder="First Name" ng-model="user.first_name" ng-maxlength="25" ng-required="true" />
+                    <span class="error alert-warning" ng-show="registerForm.register_first_name.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 25</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_last_name">Last Name<font color="red">*</font></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_last_name" id="register_last_name" placeholder="Last Name" ng-model="user.last_name" ng-maxlength="25" ng-required="true" />
+                    <span class="error alert-warning" ng-show="registerForm.register_last_name.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 25</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_birth_date">Birthdate<font color="red">*</font></label>
+                <div class="col-sm-10">
+                    <p class="input-group">
+                        <input type="text" class="form-control" name="register_birth_date" id="register_birth_date" placeholder="Birthdate" datepicker-popup="{{format}}" ng-model="user.birth_date" is-open="opened" ng-readonly="true" ng-required="true" close-text="Close" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Gender<font color="red">*</font></label>
+                <div class="col-sm-10">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="register_gender" id="register_gender1" value="male" ng-model="user.gender" ng-checked="true" ng-true-value="male">
+                            Male
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="register_gender" id="register_gender2" value="female" ng-model="user.gender" ng-true-value="female">
+                            Female
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_email_id">Email<font color="red">*</font></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_email_id" id="register_email_id" placeholder="Email" ng-model="user.email_id" ng-pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" ng-maxlength="50" errmsg="false" ng-change="resetEntryErrorStatus('email')" ng-required="true" />
+                    <span class="error alert-warning" ng-show="registerForm.register_email_id.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 50</span>
+                    <span class="error alert-warning" ng-show="registerForm.register_email_id.$error.pattern"><i class="glyphicon glyphicon-exclamation-sign"></i>Incorrect Email format (Ex: name@somename.com, etc.)</span>
+                    <span id="alert_register_email" class="error alert-warning" ng-show="getEntryErrorStatus('email')"><i class="glyphicon glyphicon-exclamation-sign"></i>Any Message here</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_phone_number">Phone</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_phone_number" id="register_phone_number" placeholder="Phone Number" ng-model="user.phone_number" ng-maxlength="15" />
+                    <span class="error alert-warning" ng-show="registerForm.register_phone_number.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 15</span>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_address_1">Address 1</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_address_1" id="register_address_1" placeholder="Address 1" ng-model="user.address_1" ng-maxlength="50" />
+                    <span class="error alert-warning" ng-show="registerForm.register_address_1.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 50</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_address_2">Address 2</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_address_2" id="register_address_2" placeholder="Address 2" ng-model="user.address_2" ng-maxlength="50" />
+                    <span class="error alert-warning" ng-show="registerForm.register_address_2.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 50</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_city">City</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_city" id="register_city" placeholder="City" ng-model="user.city" ng-maxlength="15" />
+                    <span class="error alert-warning" ng-show="registerForm.register_city.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 15</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_state">State</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_state" id="register_state" placeholder="State" ng-model="user.state" ng-pattern="/^[a-zA-Z]*$/" ng-maxlength="2" />
+                    <span class="error alert-warning" ng-show="registerForm.register_state.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 2</span>
+                    <span class="error alert-warning" ng-show="registerForm.register_state.$error.pattern"><i class="glyphicon glyphicon-exclamation-sign"></i>Incorrect State format (Ex: CA, AK, etc.)</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_zipcode">Zip Code</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_zipcode" id="register_zipcode" placeholder="Zip Code" ng-model="user.zipcode" ng-pattern="/^\d+$/" ng-maxlength="8" />
+                    <span class="error alert-warning" ng-show="registerForm.register_zipcode.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 8</span>
+                    <span class="error alert-warning" ng-show="registerForm.register_zipcode.$error.pattern"><i class="glyphicon glyphicon-exclamation-sign"></i>Incorrect Zip Code format (Ex: 92101, etc.)</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="register_country">Country</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="register_country" id="register_country" placeholder="Country" ng-model="user.country" ng-maxlength="15" />
+                    <span class="error alert-warning" ng-show="registerForm.register_country.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 15</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 col-xs-12">
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-5">
+                    <button class="btn btn-primary" style="margin-right: 3px" ng-click="register()" data-toggle="tooltip" title="Click to register" alt="Click to register">Submit</button>
+                    <button class="btn btn-primary" ng-click="clearEntries()" data-toggle="tooltip" title="Click to clear all field values" alt="Click to clear all field values">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">&nbsp;</div>
+        </div>
+    </form>
+</div>
+<div style="bottom: inherit; font-size: 11px; margin-left: 5px"><font color="red">*</font> Required fields</div>

@@ -1,0 +1,168 @@
+<div class="col-md-12">
+    <h3 translate>PAGE_HEADINGS.REPORTS</h3>
+</div>
+
+<div class="col-md-1">&nbsp;</div>
+<div class="col-md-10">
+    <h4>Ticket Reports</h4>
+    <div class="col-sm-10">
+      <h5>Filters</h5>
+    </div>
+    <div class="col-sm-2">
+      <a href="" ng-if="!tickets.showFilters" ng-click="tickets.toggleFilters()">Show</a>
+      <a href="" ng-if="tickets.showFilters" ng-click="tickets.toggleFilters()">Hide</a>
+    </div>
+    <hr />
+    <div class="col-sm-12 well" ng-if="tickets.showFilters">
+      <form role="form" class="form-horizontal" name="filtersForm" novalidate>
+        <div class="row">
+
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="reports-filters">Add Filter</label>
+              <div class="col-sm-8">
+                <select name="filters" class="form-control" id="reports-filters" ng-change="tickets.selectFilter()" ng-model="tickets.selectedFilter">
+                  <option value=""></option>
+                  <option ng-repeat="filter in tickets.filters" ng-if="!tickets.isSelectedFilter(filter.id)" value="{{filter.id}}">{{ filter.name }}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-8">
+
+            <div class="form-group" ng-if="tickets.isSelectedFilter('user')">
+              <div class="col-sm-12">
+                <div class="checkbox col-sm-4">
+                  <label>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <input type="checkbox" ng-model="tickets.paymentFiltersForm.user_checked" /> User
+                      </div>
+
+                    </div>
+                  </label>
+                </div>
+                <div class="col-sm-8">
+                  <select class="form-control" ui-select2 multiple ng-model="tickets.paymentFiltersForm['user_values[]']">
+                    <option ng-repeat="user in tickets.users" value="{{user.id}}">{{ user.username }}</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group" ng-if="tickets.isSelectedFilter('date')">
+              <div class="col-sm-12">
+                <div class="checkbox col-sm-4">
+                  <label>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <input type="checkbox" ng-model="tickets.paymentFiltersForm.date_checked" /> Date Range
+                      </div>
+
+                    </div>
+                  </label>
+                </div>
+                <div class="col-sm-8">
+                  <input ng-model="tickets.dateRange" type="daterange" class="form-control" ng-model="dateRange" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group" ng-if="tickets.isSelectedFilter('amount')">
+              <div class="col-sm-12">
+                <div class="checkbox col-sm-4">
+                  <label>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <input type="checkbox" ng-model="tickets.paymentFiltersForm.amount_checked"  /> Amount
+                      </div>
+
+
+                    </div>
+                  </label>
+                </div>
+                <div class="col-sm-2">
+                  <select class="form-control" ng-model="tickets.paymentFiltersForm.amount_condition">
+                    <option value="is">is</option>
+                    <option value="gt">&gt;</option>
+                    <option value="lt">&lt;</option>
+                    <option value="gte">&gt;=</option>
+                    <option value="lte">&lt;=</option>
+                    <option value="between">between</option>
+                  </select>
+                </div>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" ng-model="tickets.paymentFiltersForm.amount_values_first" valid-number />
+                </div>
+                <div class="col-sm-2" ng-if="tickets.paymentFiltersForm.amount_condition == 'between'">
+                  <input type="text" class="form-control" ng-model="tickets.paymentFiltersForm.amount_values_second" valid-number />
+                </div>
+                <div class="col-sm-2">
+                &nbsp;
+                </div>
+              </div>
+            </div>
+            <div class="form-group" ng-if="tickets.isSelectedFilter('status')">
+              <div class="col-sm-12">
+                <div class="checkbox col-sm-4">
+                  <label>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <input type="checkbox" ng-model="tickets.paymentFiltersForm.status_checked" /> Status
+                      </div>
+
+                    </div>
+                  </label>
+                </div>
+                <div class="col-sm-8">
+                  <select multiple class="form-control" ng-model="tickets.paymentFiltersForm['status_values[]']" ui-select2>
+                    <option ng-repeat="status in tickets.statuses" value="{{status}}">{{ status }}</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </form>
+    </div>
+    <div class="col-sm-10">
+      <h5>Report</h5>
+    </div>
+    <div class="col-sm-2">
+      <button type="button" class="btn btn-xs btn-primary" ng-click="tickets.generatePaymentReport()">Generate</button>
+      <button type="button" class="btn btn-xs btn-warning">Reset</button>
+    </div>
+
+    <div class="col-sm-12 well" ng-if="!tickets.paymentReportReady">
+      Retrieving results from server ...
+    </div>
+    <div class="col-sm-12 well" ng-if="tickets.purchases.length == 0 && tickets.paymentReportReady">
+      No results found!
+    </div>
+    <div class="col-sm-12" ng-if="tickets.purchases.length > 0 && tickets.paymentReportReady">
+      <div class="table-responsive">
+        <table ng-table="tickets.tableParams" class="table table-bordered table-hover">
+
+            <tr ng-repeat="purchase in $data">
+              <td data-title="'ID'" sortable="'id'">{{ purchase.id }}</td>
+              <td data-title="'Date'" sortable="'date'">{{ purchase.date | date : "medium" }}</td>
+              <td data-title="'User'" sortable="'username'">{{ purchase.username }}</td>
+              <td data-title="'Orders'">
+                <span ng-repeat="order in purchase.orders">{{ order.id }}<span ng-show="!$last">, </span></span>
+              </td>
+              <td data-title="'Amount'" sortable="'cost'">{{ purchase.cost | currency : "PHP" }}</td>
+              <td data-title="'Payment Method'">Paypal</td>
+              <td data-title="'Status'" sortable="'status'">
+                <span class="label label-warning" ng-if="purchase.status=='created'">Created</span>
+                <span class="label label-success" ng-if="purchase.status=='completed'">Completed</span>
+                <span class="label label-danger" ng-if="purchase.status=='cancelled'">Cancelled</span>
+              </td>
+            </tr>
+          <!-- </tbody> -->
+        </table>
+      </div>
+    </div>
+</div>
+<div class="col-md-1">&nbsp;</div>

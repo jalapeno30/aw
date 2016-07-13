@@ -1,0 +1,29 @@
+<div class="col-md-12">
+  <h3 translate>PAGE_HEADINGS.APP_SETTINGS</h3>
+</div>
+
+<div class="col-md-1">&nbsp;</div>
+<div class="col-md-10">
+
+  <div class="btn-group">
+    <label class="btn btn-primary" ng-model="activeSettings" btn-radio="'user'">User Settings</label>
+    <label class="btn btn-primary" ng-model="activeSettings" btn-radio="'system'">System Settings</label>
+    <label class="btn btn-primary" ng-model="activeSettings" btn-radio="'payment'">Payment Settings</label>
+    <label class="btn btn-primary" ng-model="activeSettings" btn-radio="'language'">Language Settings</label>
+  </div>
+
+
+  <div ng-if="activeSettings=='user'" ng-controller="UserSettingsCtrl as userSettings" ng-include="'views/user-settings.html'">
+  </div>
+
+  <div ng-if="activeSettings=='system'" ng-controller="SystemSettingsCtrl as systemSettings" ng-include="'views/system-settings.html'">
+  </div>
+
+  <div ng-if="activeSettings=='payment'" ng-controller="PaymentsSettingsCtrl as paymentSettings" ng-include="'views/payments-settings.html'">
+  </div>
+
+  <div ng-if="activeSettings=='language'" ng-controller="LanguageSettingsCtrl as languageSettings" ng-include="'views/language-settings.html'">
+  </div>
+
+</div>
+<div class="col-md-1">&nbsp;</div>

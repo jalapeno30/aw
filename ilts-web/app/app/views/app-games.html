@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h5>Games</h5>
+  </div>
+  <div class="col-sm-12">
+    <div class="table-responsive">
+      <table ng-table="appGames.tableParams" class="table table-bordered table-hover">
+
+        <tr ng-repeat="game in $data">
+          <td data-title="'ID'" sortable="'id'">{{ game.id }}</td>
+          <td data-title="'Name'" sortable="'title'">{{ game.title }}</td>
+          <td data-title="'Numbers'" sortable="'numbers'">{{ game.numbers }}</td>
+          <td data-title="'Bet Price'" sortable="'multiplier'">{{ game.multiplier | currency : "PHP" }}</td>
+          <td data-title="'Logo'">
+            <img class="img-responsive" ng-src="{{game.logo}" />
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+</div>

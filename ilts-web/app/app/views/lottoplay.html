@@ -1,0 +1,137 @@
+<div class="col-md-12" id="alerts">
+  <div class="row">
+    <alert class="col-md-12" ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
+  </div>
+</div>
+
+<div class="col-md-12">
+  <h3 translate>PAGE_HEADINGS.BUY_LOTTO</h3>
+  <br />
+  <h5>1. <span translate>BUY_LOTTO.STEPS.CHOOSE_A_GAME</span></h5>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+    <div ng-controller="TabCtrl">
+    	<tabset id="gameTabs" style="padding:0 10px">
+	        <tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" disabled="tab.disabled" select="selectGame(tab.numbers)">
+	          <div class="row" ng-controller="GameCtrl as game" ng-init="init(tab)">
+	          	<div class="col-md-12">
+	          		<h4>{{game.title}}</h4>
+
+	          		<div class="row">
+		                <div class="col-md-12">
+		                  <h5>2. <span translate>BUY_LOTTO.STEPS.CHOOSE_YOUR_DRAW</span></h5>
+		                </div>
+
+		                <form role="form" class="col-md-12">
+		                	<div class="row">
+		                		<div class="col-md-12 col-sm-6 col-xs-12" ng-repeat="draw in game.draws track by $index">
+		                			<div class="well">
+		                				<div class="checkbox">
+		                					<div class="row">
+		                						<div class="col-md-3 col-sm-4 col-xs-6">
+		                							<label>
+		                								<input type="checkbox" ng-model="draw.selected"> <img class="img-responsive" ng-src="{{game.logo}}" />
+		                							</label>
+		                						</div>
+
+		                						<div class="col-md-9 col-sm-8 col-xs-12">
+		                							<div class="row">
+		                								<div class="col-md-3 col-sm-12">
+		                									{{draw.jackpot | currency: "P "}}<br />
+                        							{{draw.drawDate | date : 'EEEE'}}
+		                								</div>
+
+		                								<div class="col-md-3 col-sm-12">
+		                                  {{draw.drawDate | date: "shortDate"}}
+		                                </div>
+
+		                                <div class="col-md-3 col-sm-12">
+		                                  {{draw.drawCode}}
+		                                </div>
+		                							</div>
+		                						</div>
+		                					</div>
+		                				</div>
+		                			</div>
+		                		</div>
+		                	</div>
+		                </form>
+	                </div>
+
+	                <div class="row">
+		                <div class="col-md-12">
+		                  	<h5>3. <span translate>BUY_LOTTO.STEPS.CHOOSE_YOUR_SYSTEM</span></h5>
+		                  	<div class="row" ng-controller="ButtonsCtrl">
+		                    	<div class="col-md-12" >
+		                      		<button ng-repeat="button in buttons" type="button" class="btn btn-primary entry-buttons" ng-model="radio.model" btn-radio="'{{button.name}}'" ng-click="updateSystem(button.name)">	{{button.name}}<br />{{button.desc}}
+	                      			</button>
+		                    	</div>
+		                	</div>
+		                </div>
+	              	</div>
+
+	              	<div class="row" ng-controller="NumberCtrl" >
+	              		<div class="col-md-12">
+	              			<h5>4. <span translate>BUY_LOTTO.STEPS.CHOOSE_YOUR_NUMBERS</span></h5>
+	              			<div class="col-md-6">
+			                    <div class="table-responsive">
+			                      	<table class="table table-striped table-bordered table-condensed table-responsive" id="lottery-table" ng-class="{'lucky-numbers': luckyPicks[activeSet]}">
+			                        	<tr ng-repeat="numberGroup in numbers" ng-hide="luckyPicks[activeSet]">
+			                          		<td ng-repeat="number in numberGroup" ng-class="{'selected-in-table':(selectedNumbers[activeSet].indexOf(number)>-1)}" ng-click="toggleNumber(number)">{{number}}</td>
+			                        	</tr>
+			                        	<tr ng-repeat="numberGroup in numbers" ng-show="luckyPicks[activeSet]">
+			                          		<td ng-repeat="number in numberGroup" class="disabled">{{number}}</td>
+			                        	</tr>
+			                      	</table>
+			                    </div>
+			                    <div class="row">
+			                      	<div class="col-md-12">
+			                        	<button class="btn btn-info" ng-click="luckyPick()">Lucky Pick</button>
+			                        	<button class="btn btn-info" ng-click="autoPlay()">Auto Play</button>
+			                      	</div>
+			                    </div>
+		                  	</div>
+
+		              		<div class="col-md-6">
+			                    <h6 translate>BUY_LOTTO.BODY.SELECTED_NUMBERS</h6>
+			                    <div class="row" ng-repeat="numSet in rangeSets() track by $index">
+			                      	<div class="col-md-2 col-xs-1">
+			                        	<table class="table label-table" >
+			                          		<tr><td><strong>{{setLabels[$index]}}:</strong></td></tr>
+			                        	</table>
+			                      	</div>
+			                      	<div class="col-md-10 col-xs-11">
+			                        	<div class="table-responsive numberSet">
+			                          		<table class="table table-bordered table-striped bg-primary" ng-class="{'active': $index == activeSet}" ng-click="toggleSet($index)" num-set={{$index}}>
+			                            		<tr ng-hide="luckyPicks[$index]">
+			                              			<td class="selected-number col-sm-1" ng-repeat="selectable in getSelectableNumbers() track by $index">{{selectedNumbers[$parent.$index][$index]}}&nbsp;</td>
+			                            		</tr>
+			                            		<tr ng-show="luckyPicks[$index]">
+			                              			<td>
+			                                			Lucky Pick<span class="pull-right"><button class="btn btn-xs" ng-click="unlucky($index)" translate>BUY_LOTTO.BUTTONS.RESET</button></span>
+			                              			</td>
+			                            		</tr>
+			                          		</table>
+			                        	</div>
+			                      	</div>
+			                    </div>
+			                    <div class="pull-right" ng-show="completeNumberSet">
+			                      	<button class="btn btn-warning" ng-click="addOrder()" translate>BUY_LOTTO.BUTTONS.ADD_TO_CART</button>
+			                    </div>
+			                </div>
+		                </div>
+	              	</div>
+
+	          	</div>
+	          </div>
+          	</tab>
+      	</tabset>
+    </div>
+  </div>
+
+  <div class="col-md-3" ng-controller="ShoppingCartCtrl" ng-include="'views/shopping-cart.html'" id="orders">
+  </div>
+
+</div>

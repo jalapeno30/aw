@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-sm-10 col-xs-12">
+    <h5>Orders</h5>
+  </div>
+  <div class="col-sm-2 col-xs-12">
+    <button type="button" class="btn btn-sm btn-success" ng-click="appOrders.refreshOrders()">
+      <i class="glyphicon glyphicon-refresh"></i> Refresh
+    </button>
+  </div>
+</div>
+  <div class="col-sm-12">
+    <div class="table-responsive">
+      <table ng-table="appOrders.tableParams" class="table table-bordered table-hover">
+
+        <tr ng-repeat="order in $data">
+          <td data-title="'ID'" sortable="'id'">{{ order.id }}</td>
+          <td data-title="'User'" sortable="'username'">{{ order.username }}</td>
+          <td data-title="'Game'" sortable="'gameName'">{{ order.gameName }}</td>
+          <td data-title="'Draw Date'" sortable="'drawDate'">{{ order.drawDate }}</td>
+          <td data-title="'Cost'" sortable="'orderCost'">{{ order.orderCost | currency : "PHP" }}</td>
+          <td data-title="'Numbers'">
+            <div ng-repeat="numberSet in order.numbers">
+              <span ng-repeat="number in numberSet">{{ number }} </span>
+            </div>
+          </td>
+          <td data-title="'Status'">
+            <span class="label label-danger" ng-if="order.active && order.deleted">Removed</span>
+            <span class="label label-warning" ng-if="order.active && !order.deleted">In Cart</span>
+            <span class="label label-success" ng-if="!order.active && !order.deleted">Purchased</span>
+          </td>
+          <td data-title="'Actions'"></td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h4>Forgot Password</h4>
+</div>
+<div class="modal-body">
+    <form name="forgotpassModal" class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="username" class="col-sm-2 col-xs-12">Username<font color="red">*</font></label>
+            <div class="col-sm-10 col-xs-12">
+                <input type="text" class="form-control" name="username" id="username" placeholder="Username" ng-model="username" ng-maxlength="20" ng-required="true" />
+                <span class="error alert-warning" ng-show="forgotpassModal.username.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 20</span>
+                <span class="error alert-warning" id="username_error" ng-show="username_error"><i class="glyphicon glyphicon-exclamation-sign"></i>Please fill out this field.</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 col-xs-12" for="email">Email<font color="red">*</font></label>
+            <div class="col-sm-10 col-xs-12">
+                <input type="text" class="form-control" name="email" id="email" placeholder="Email" ng-model="email" ng-pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" ng-maxlength="50" ng-required="true" />
+                <span class="error alert-warning" ng-show="forgotpassModal.email.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 50</span>
+                <span class="error alert-warning" ng-show="forgotpassModal.email.$error.pattern"><i class="glyphicon glyphicon-exclamation-sign"></i>Incorrect Email format (Ex: name@somename.com, etc.)</span>
+                <span class="error alert-warning" id="email_error" ng-show="email_error"><i class="glyphicon glyphicon-exclamation-sign"></i>Please fill out this field.</span>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="sendForgotPassword(username, email)">OK</button>
+    <button class="btn btn-danger" ng-click="close()">Close</button>
+    <div style="position: absolute; bottom: 0; left: 0; font-size: 11px; margin-left: 5px"><font color="red">*</font> Required fields</div>
+</div>

@@ -1,0 +1,64 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="row orders-header">
+			<div class="col-md-12">
+				<h4 translate>SHOPPING_CART.ORDERS</h4>
+			</div>
+		</div>
+		<div class="row orders-content">
+            <div class="col-md-12">
+                <div ng-if="pendingBets.length == 0" translate=>
+                    SHOPPING_CART.NO_ORDERS
+                </div>
+                <div ng-if="pendingBets.length > 0">
+                    <ul class="list-group">
+                        <li class="list-group-item order-item" ng-repeat="bet in pendingBets">
+                            <div class="order-item-header">
+                                <div class="pull-right">
+                                    <a ng-href="" href="" ng-click="removeBet(bet.id)" translate>SHOPPING_CART.REMOVE</a>
+                                </div>
+                                <h5>{{ bet.draw.game.name }}</h5>
+                            </div>
+                            <div class="order-item-content">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-4 col-xs-12">
+                                        <strong><span translate>SHOPPING_CART.DRAWS</span>: </strong>
+                                        <div class="order-draws">
+                                            <p>{{ bet.draw.date }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-4 col-xs-12">
+                                        <strong><span translate>SHOPPING_CART.NUMBERS</span>: </strong>
+                                        <div class="order-numbers">
+                                            <p ng-repeat="selection in bet.betSelections">
+                                                <em><span ng-repeat="number in selection.betSelectionNumbers">{{ number.number }}&nbsp;</span></em>
+                                                <strong>({{ selection.system }})</strong>
+                                                <!--<span ng-show="numberSet.lucky">&nbsp;(LP)</span>-->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right">
+                                    <strong>Cost: </strong>{{ bet.cost | currency : "P" }}<br />
+                                    <strong>Tax: </strong>{{ bet.tax | currency : "P" }}
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+		<div class="row orders-footer">
+			<div class="col-md-12">
+				Total
+				<span class="orders-total"> {{ cost.total | currency : "P" }} ({{ cost.cost | number : 2 }} + {{ cost.tax | number : 2 }})</span>
+				<span class="pull-right" ng-if="pendingBets.length > 0">
+					<button class="btn btn-danger" ng-click="checkout()">
+						<i class="glyphicon glyphicon-shopping-cart"></i> <span translate>SHOPPING_CART.BUY_NOW</span>
+					</button>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
