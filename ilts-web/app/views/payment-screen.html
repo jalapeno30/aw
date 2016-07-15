@@ -5,25 +5,50 @@ To change this template file, choose Tools | Templates
 and open the template in the editor. /it3
 -->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-6">
-                    <div class="well">Card Selection Stuff</div>
-                </div>
-                <div class="col-xs-6">
-                    <div class="well">Maybe Some TExt</div>
-                </div>
-            </div>
-            <div class="xs-12">
-                <shopping-cart toggle="small"></shopping-cart>
-            </div>
-
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+    <div class="container-fluid">
         
-    </body>
+        <div class="row" id="paymentScreenTabs">
+            <div class="col-xs-12">
+                <div class="col-xs-3" ng-repeat="tab in pay.tabs">
+                    <button ng-class="pay.tabClass(tab.tabId)" class="btn btn-block" ng-click="pay.tabClick(tab.tabId)">{{tab.tabName}}</button>
+              </div>
+            </div>
+        </div>       
+        
+        <div class="row" id="paymentScreenContent">
+            <shopping-cart toggle="payment" ng-show="pay.tabContent(0)"></shopping-cart>
+            <card-selection class="paymentScreenContent" ng-show="pay.tabContent(1)"></card-selection>
+            <transaction-review ng-show="pay.tabContent(2)"></transaction-review>
+            <payment-success ng-show="pay.tabContent(3)"></payment-success>
+        </div>       
+       
+        <div class="row" id="paymentScreenBottom">
+            <div class="col-xs-6 col-xs-push-6 col-md-4 col-md-push-8">
+                <div class="btn-group btn-group-justified" role="group">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default btn-block" ng-click="pay.arrowClick(0)">
+                            <span class="glyphicon glyphicon-arrow-left"</span> Previous
+                        </button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default btn-block" ng-click="pay.arrowClick(1)">
+                            Next <span class="glyphicon glyphicon-arrow-right"</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+    </div>
+
+</body>
 </html>
+
+

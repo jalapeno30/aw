@@ -20,22 +20,20 @@ function shoppingCart(Orders) {
 
   return directive;
 
-  function shoppingCartController($scope) {
+  function shoppingCartController($scope, $location) {
     var vm = this;
     vm.orders;      
-    vm.toggleSmall = (vm.toggle == "small");
+    vm.toggleScreen = (vm.toggle === "payment");
  
     vm.classSwitch = function(){
-        var mainWidth = ["col-xs-12", "col-xs-hidden col-sm-6 orders-content"]
-        var ticketsPer = ["col-lg-4 col-md-6", "col-xs-6 col-lg-6 orders-content"]
-        if(vm.toggleSmall != true){
-            return([mainWidth[0], ticketsPer[0]])
-        }else{
-            return([mainWidth[1], ticketsPer[1]])
-        }
+        return(vm.toggleScreen === true ? "hidden" : "show" )
     };
     
-    console.log(vm.classSwitch());
+    vm.border = function(){
+        if (vm.toggleScreen){
+            return {"border": "none"}
+        }      
+    };
 
     Orders.refreshOrders();
     $scope.$watch(function(){
@@ -52,6 +50,7 @@ function shoppingCart(Orders) {
     vm.checkout = function() {
       Orders.getGreeting();
       Orders.checkoutOrders();
+      $location.path('/payment');
     }
   }
 

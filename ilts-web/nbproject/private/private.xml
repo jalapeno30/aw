@@ -3,18 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/AW/ilts-web/app/scripts/directives/bet.js</file>
-            <file>file:/C:/AW/ilts-web/app/views/directives/bet.html</file>
+            <file>file:/C:/AW/ilts-web/app/views/directives/transaction-review.html</file>
             <file>file:/C:/AW/ilts-web/app/views/payment-screen.html</file>
-            <file>file:/C:/AW/ilts-web/app/scripts/directives/game-number-set.js</file>
-            <file>file:/C:/AW/ilts-web/app/scripts/directives/shopping-cart.js</file>
-            <file>file:/C:/AW/ilts-web/app/scripts/services/orders.js</file>
-            <file>file:/C:/AW/ilts-web/app/scripts/services/payment.js</file>
-            <file>file:/C:/AW/ilts-web/app/scripts/directives/selected-number-set.js</file>
+            <file>file:/C:/AW/ilts-web/app/views/directives/card-selection.html</file>
+            <file>file:/C:/AW/ilts-web/app/views/directives/payment-success.html</file>
+            <file>file:/C:/AW/ilts-web/app/scripts/directives/card-selection.js</file>
             <file>file:/C:/AW/ilts-web/app/scripts/controllers/payment-screen.js</file>
-            <file>file:/C:/AW/ilts-web/app/scripts/services/lottery-game.js</file>
-            <file>file:/C:/AW/ilts-web/app/views/directives/bet-game.html</file>
-            <file>file:/C:/AW/ilts-web/app/views/directives/shopping-cart.html</file>
+            <file>file:/C:/AW/ilts-web/app/styles/main.css</file>
+            <file>file:/C:/AW/ilts-web/app/scripts/directives/payment-success.js</file>
+            <file>file:/C:/AW/ilts-web/app/scripts/directives/transaction-review.js</file>
         </group>
     </open-files>
 </project-private>

@@ -1,12 +1,12 @@
-<div ng-class="shoppingCart.classSwitch()[0]" id="orders" ng-if="shoppingCart.orders.length != 0">
+<div class="col-xs-12" id="orders" ng-if="shoppingCart.orders.length != 0" ng-style="shoppingCart.border()" >
   <div class="row">
     <div class="col-md-12">
-      <div class="row orders-header">
+      <div ng-class="shoppingCart.classSwitch()" class="row orders-header">
         <div class="col-md-12">
           <h4 translate>SHOPPING_CART.ORDERS</h4>
         </div>
       </div>
-      <div ng-class="shoppingCart.classSwitch()[1]" ng-repeat="order in shoppingCart.orders">
+      <div class="col-lg-4 col-md-6 orders-content" ng-repeat="order in shoppingCart.orders">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
@@ -42,11 +42,11 @@
         </div>
       </div>
         
-        <div class="row orders-footer">
+      <div ng-class="shoppingCart.classSwitch()" class="row orders-footer">
         <div class="col-md-12">
           Total
           <span class="orders-total"> {{ shoppingCart.cost | currency : "P" }} </span>
-          <span class="pull-right" ng-hide="shoppingCart.toggleSmall">
+          <span class="pull-right" ng-if="shoppingCart.orders.length > 0">
             <button class="btn btn-danger" ng-click="shoppingCart.checkout()">
               <i class="glyphicon glyphicon-shopping-cart"></i> <span translate>SHOPPING_CART.BUY_NOW</span>
             </button>
