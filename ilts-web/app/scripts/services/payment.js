@@ -10,23 +10,18 @@ angular
     .service('Payment', Payment);
 
 function Payment($http, ENV) {
-    var payments = [];
+    var self = this;
 
-    function fetchPayments() {
-        return $http({
-            url: ENV.apiEndpoint + '/paymentstuff',
-            method: 'GET'
-        }).then(function(result) {
-            payments = result.data;
-        });
-    }
-
-    function getPayments() {
-        return payments;
-    }
-
-    return {
-        fetchPayments: fetchPayments,
-        getPayments: getPayments,
-    }
-}
+    //step 0 this sends the token, id, and initial status
+    self.newCheckout = function(token, userId, status){
+        var url = ENV.apiEndpoint + '/payment/newCheckout';
+        
+        var data = {
+          token: token,
+          userId: userId,
+          status: status
+        };
+        
+        return $http.post(url, data);
+    };
+};

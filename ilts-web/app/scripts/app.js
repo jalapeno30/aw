@@ -76,6 +76,10 @@ angular.module('lotteryApp', [
             templateUrl: 'views/payment-screen.html',
             controller: 'PaymentScreenCtrl',
             controllerAs: 'pay'
+        }).when('/payment-test', {
+            templateUrl: 'views/payment-test.html',
+            controller: 'PaymentTestCtrl',
+            controllerAs: 'payTest'
         })
         .when('/paypal-callback', {
             templateUrl: 'views/paypal-callback.html',
