@@ -18,10 +18,13 @@ angular.module('lotteryApp')
       self.tabs = [{tabName: "Order Review", tabId : 0},{tabName: "Card Selection", tabId : 1},{tabName: "Confirmation", tabId : 2},{tabName: "Success", tabId : 3}];
       
       self.tabClass=function(index){
-          if (index == self.tabSelection){
-              return "danger";
-          }
+          if(index > self.tabSelection){
+              return "btn-default"
+          }else if(index == self.tabSelection){
+              return "active"
+          }else return "btn-success"
       };
+      
       self.tabClick= function(index){
           self.tabSelection=index;
       };
@@ -30,9 +33,12 @@ angular.module('lotteryApp')
           return index === self.tabSelection ? true : false;
       };
       
-      $scope.$watch(function () {
-          return self.tabSelection;
-      },function(value){
-           alert(value)
-      });           
+      self.arrowClick = function(operator){
+          if(operator === 1 && self.tabSelection < self.tabs.length ){
+              self.tabSelection ++;
+          }else if(operator === 0 && self.tabSelection > 0){
+              self.tabSelection --;
+          }
+      };
+          
   });

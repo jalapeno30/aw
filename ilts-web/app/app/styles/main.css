@@ -224,6 +224,27 @@ body {
     width:100%
 }
 
+.paymentContent{
+      margin: 30px 0px;
+}
+
+.payment-screen-tabs{
+    text-align: center
+}
+
+/*delete*/
+.back-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
 #orders {
   border: 1px solid black;
   border-radius: 5px;
@@ -251,6 +272,10 @@ body {
 
 .orders-content {
   padding-top: 10px;
+}
+
+.topMargin30{
+    margin-top: 30px !important;
 }
 
 .numberSet > table {

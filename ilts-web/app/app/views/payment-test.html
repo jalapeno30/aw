@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <button ng-click="payTest.step0()">Step 0</button> Clicking BUY NOW from buy lotto page
+        <pre>
+            Step 0 Out: {{payTest.step0Out}}
+            Step 0 Back: {{payTest.step0Back}}
+        </pre>
+        
+        <button ng-click="payTest.step1()">Step 1</button> Clicking CONTINUE from order display page
+        <pre>
+            Step 1 Out: {{payTest.step1Out}}
+            Step 1 Back: {{payTest.step1Back}}
+        </pre>
+        
+        <button ng-click="payTest.step2()">Step 2</button> Clicking CONTINUE after selecting or entering card
+        <pre>
+            Step 2 Out: {{payTest.step2Out}}
+            Step 2 Back: {{payTest.step2Back}}
+        </pre>
+        
+        <button ng-click="payTest.step3()">Step 3</button> Clicking BUY NOW after last review
+        <pre>
+            Step 3 Out: {{payTest.step3Out}}
+            Step 3 Back: {{payTest.step3Back}}
+        </pre>
+        Step 4 doesn't communicate with backend. Displays success message and transaction number to user
+        <pre>
+            Step 4 Displays Success Message
+        </pre>
+        
+        <button ng-click="payTest.getCards()">Get Cards</button> get cards by user
+        <pre>
+            Get Cards Out: {{payTest.getCardsOut}}
+            Step Cards Back: {{payTest.getCardsBack}}
+        </pre>
+        
+        <button ng-click="payTest.addCard()">Add Card</button> add/save card
+        <button ng-click="payTest.deleteCard()">Delete Card</button> delete card
+        <pre>
+            Edit Card Out: {{payTest.editCardsOut}}
+            Edit Card Back: {{payTest.editCardsBack}}
+        </pre>
+        
+    </body>
+</html>

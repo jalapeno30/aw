@@ -17,6 +17,15 @@ function cardSelection() {
 
   function cardSelectionController() {
     var vm = this;
+    vm.buttonSwitch;
+    
+    vm.click=function(string){
+       vm.buttonSwitch = string;
+    }
+    
+    vm.toggle = function(string){
+        return string == vm.buttonSwitch ? true : false;
+    }
   }
 
   function cardSelectionLink(scope, elem, attr, ctrl) {

@@ -47,7 +47,8 @@
           Total
           <span class="orders-total"> {{ shoppingCart.cost | currency : "P" }} </span>
           <span class="pull-right" ng-if="shoppingCart.orders.length > 0">
-            <button class="btn btn-danger" ng-click="shoppingCart.checkout()">
+            <!--<button class="btn btn-danger" ng-click="shoppingCart.checkout()">-->
+            <button class="btn btn-danger" ng-click="">
               <i class="glyphicon glyphicon-shopping-cart"></i> <span translate>SHOPPING_CART.BUY_NOW</span>
             </button>
           </span>

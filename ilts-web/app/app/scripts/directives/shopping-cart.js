@@ -20,7 +20,7 @@ function shoppingCart(Orders) {
 
   return directive;
 
-  function shoppingCartController($scope) {
+  function shoppingCartController($scope, $location) {
     var vm = this;
     vm.orders;      
     vm.toggleScreen = (vm.toggle === "payment");
@@ -50,6 +50,7 @@ function shoppingCart(Orders) {
     vm.checkout = function() {
       Orders.getGreeting();
       Orders.checkoutOrders();
+      $location.path('/payment');
     }
   }
 
