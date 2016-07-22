@@ -1,0 +1,86 @@
+<div class="row">
+
+  <div class="col-sm-12">
+    <div class="col-sm-10 col-xs-12">
+      <h4>Languages</h4>
+    </div>
+    <div class="col-sm-2 col-xs-12">
+      <button type="button" class="btn btn-sm btn-primary" ng-click="languageSettings.createLanguage()">
+        <i class="glyphicon glyphicon-plus"></i> Create Language
+      </button>
+    </div>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="table-responsive">
+      <table ng-table="languageSettings.tableParams" class="table table-bordered table-hover">
+
+        <tr ng-repeat="language in $data">
+
+          <td data-title="'ID'" sortable="'id'">{{ language.id }}</td>
+          <td data-title="'Alias'" sortable="'alias'">{{ language.alias }}</td>
+          <td data-title="'Name'" sortable="'name'">{{ language.name }}</td>
+          <td data-title="'Actions'">
+            <button type="button" class="btn btn-primary btn-xs" ng-click="languageSettings.editLanguage(language.id)">Edit Entries</button>
+          </td>
+
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+  <div class="col-sm-12" ng-if="languageSettings.editable">
+    <form class="form-horizontal" role="form">
+
+        <h3 ng-if="!languageSettings.newLanguage">{{ languageSettings.activeLanguageDetails.name }}</h3>
+
+        <div class="form-group" ng-if="languageSettings.newLanguage">
+          <label class="col-sm-2 control-label">Alias</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="languageSettings.activeLanguageDetails.alias" />
+          </div>
+        </div>
+
+        <div class="form-group" ng-if="languageSettings.newLanguage">
+          <label class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="languageSettings.activeLanguageDetails.name" />
+          </div>
+        </div>
+
+        <div class="form-group  language-settings-well" ng-repeat="(key, val) in languageSettings.activeLanguage">
+            <label class="col-sm-2 control-label"><h4>{{ key | languageKeys }}</h4></label>
+
+            <div class="col-sm-10" ng-if="!languageSettings.hasChild(val)">
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-sm-12" ng-if="languageSettings.hasChild(val)">
+              <div class="form-group" ng-repeat="(k, v) in val">
+                <label class="col-sm-2 control-label">{{ k | languageKeys }}</label>
+                <div class="col-sm-10" ng-if="!languageSettings.hasChild(v)">
+                  <input type="text" ng-model="languageSettings.activeLanguage[key][k]" class="form-control" value="{{v}}" />
+                </div>
+                <div class="col-sm-11 col-sm-offset-1 language-settings-sub-well" ng-if="languageSettings.hasChild(v)">
+                  <div class="form-group" ng-repeat="(k1, v1) in v">
+                    <label class="col-sm-2 control-label">{{ k1 | languageKeys }}</label>
+                    <div class="col-sm-10" ng-if="!languageSettings.hasChild(v1)">
+                      <input type="text" ng-model="languageSettings.activeLanguage[key][k][k1]" class="form-control" value="{{v1}}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button class="btn btn-primary" ng-if="!languageSettings.newLanguage" ng-disabled="!languageSettings.enableSave" ng-click="languageSettings.saveLanguage()">Save Changes</button>
+            <button class="btn btn-primary" ng-if="languageSettings.newLanguage" ng-disabled="!languageSettings.enableSave" ng-click="languageSettings.saveLanguage()">Save</button>
+          </div>
+        </div>
+
+    </form>
+  </div>
+
+</div>

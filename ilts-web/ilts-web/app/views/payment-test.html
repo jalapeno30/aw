@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <button ng-click="payTest.step0()">Step 0</button> Clicking BUY NOW from buy lotto page
+        <pre>
+            Step 0 Out: {{payTest.step0Out}}
+            Step 0 Back: {{payTest.step0Back}}
+        </pre>
+        
+        <button ng-click="payTest.step1()">Step 1</button> Clicking CONTINUE from order display page
+        <pre>
+            NO LONGER NEEDED
+        </pre>
+        
+        <button ng-click="payTest.step2A()">Step 2A</button> Clicking CONTINUE after entering new card
+        <button ng-click="payTest.step2B()">Step 2B</button> Clicking CONTINUE after choosing existing card
+        <pre>
+            Step 2A Out: {{payTest.step2AOut}}
+            Step 2A Back: {{payTest.step2ABack}}
+        </pre>      
+        <pre>
+            Step 2B Out: {{payTest.step2BOut}}
+            Step 2B Back: {{payTest.step2BBack}}
+        </pre>
+        
+        <button ng-click="payTest.step3('completed')">Step 3</button> Clicking BUY NOW after last review
+        <pre>
+            Step 3 Out: {{payTest.step3Out}}
+            Step 3 Back: {{payTest.step3Back}}
+        </pre>
+
+        Step 4 doesn't communicate with backend. Displays success message and transaction number to user
+        <pre>
+            Step 4 Displays Success Message
+        </pre>
+        
+        <button ng-click="payTest.existingCardDetails()">Get Cards</button> get cards by user
+        <pre>
+            Get Cards Out: {{payTest.existingCardOut}}
+            Step Cards Back: {{payTest.existingCardBack}}
+        </pre>
+         
+        <button ng-click="payTest.deleteCard()">Delete Card</button> delete card by id
+        <pre>
+            Edit Card Out: {{payTest.deleteCardOut}}
+            Edit Card Back: {{payTest.deleteCardBack}}
+        </pre>
+        
+    </body>
+</html>
