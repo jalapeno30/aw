@@ -36,7 +36,7 @@ public class PaymentService {
 	private String clientID = "ARbzymMPTNvi-mWpotVT9pehwV2iI29Z7w9ByXyn4-bajgWF_JXC432u3UngL4KGP1t-Ub7Quz_bCQFd";
 	private String clientSecret = "EFtjd9CsVuz2neSBtZ3Ewxc-FxBJUvsoz-4uQc40BMrPsK0ZF6O2Fpchmc-i7SJTLzaBe7cth7OuvK_h";
 
-	public String getRedirectUri() {
+                    public String getRedirectUri() {
 		return this.redirectUri;
 	}
 	
@@ -45,7 +45,12 @@ public class PaymentService {
 	}
 	
 	public Boolean hasFunding(ArrayList<String> orderID, String date, String userId) {
+                        System.out.println(">>>>>>> hasFunding(ArrayList<String> orderID, String date, String userId) ");
+                    
+                                    System.out.println(">>>>>>> hasFunding String userId "+userId);
+
 		String paypalUri = this.paypalFunding(orderID, date, userId);
+                 System.out.println(">>>>>>> hasFunding paypalUri  "+paypalUri);
 		if (paypalUri != null && paypalUri.length() > 0) {
 			this.setRedirectUri(paypalUri);
 			return true;
@@ -59,7 +64,8 @@ public class PaymentService {
 	}
 
 	public String paypalFunding(ArrayList<String> orderID, String date, String userId) {
-		
+		System.out.println(">>>>>>>  paypalFunding(ArrayList<String> orderID, String date, String userId) "+userId);
+
 		// get total cost
 		final String purchaseDate = date;
 		
@@ -128,7 +134,9 @@ public class PaymentService {
 		HttpEntity entity = new HttpEntity(JSON, headers);
 		RestTemplate restTemplate = new RestTemplate();
 		this.anywhereDb.initiateFundingRequest(paypalPurchase.getId());
-		
+				System.out.println(">>>>>>> AFTER paypalFunding(ArrayList<String> orderID, String date, String userId) "
+                                        + "anywhereDb.initiateFundingRequest(paypalPurchase.getId()) "+paypalPurchase.getId());
+
 		HttpEntity<String> result = restTemplate.exchange("https://api.sandbox.paypal.com/v1/payments/payment", HttpMethod.POST, entity, String.class, "");
 		
 		final PaypalResponse paypalResponse;
@@ -138,8 +146,13 @@ public class PaymentService {
 			ObjectMapper paypalMapper = new ObjectMapper();
 			
 			paypalMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-			System.out.println(result.getBody());
+			System.out.println(" >> Result GETBODY PAYPAL FUNDING: "+result.getBody());
 			paypalResponse = paypalMapper.readValue(result.getBody(), PaypalResponse.class);
+                        System.out.println("PAYPAL  ****"+paypalResponse);
+                         System.out.println("PAYPAL  ****"+paypalResponse.getId());
+                          System.out.println("PAYPAL  ****"+paypalResponse.getIntent());
+                           System.out.println("PAYPAL  ****"+paypalResponse.getState());
+                            System.out.println("PAYPAL  ****"+paypalResponse.getLinks());
 			ArrayList<PaypalLink> links = paypalResponse.getLinks();
 			
 			for (PaypalLink link: links) {
@@ -150,7 +163,8 @@ public class PaymentService {
 			}
 
 			this.anywhereDb.setPaypalPurchaseLinks(paypalPurchase.getId(), links);
-			
+			System.out.println(">>>>>>> AFTER  "
+                                        + "anywhereDb.setPaypalPurchaseLinks(paypalPurchase.getId(), links)) "+paypalPurchase.getId());
 		} catch (JsonGenerationException e) {
  
 			e.printStackTrace();
@@ -161,7 +175,7 @@ public class PaymentService {
 	 
 		}
 		
-		return redirectURI;
+		return "http://localhost:8080/payment/webapi/test";
 
 
 	}
@@ -199,7 +213,7 @@ public class PaymentService {
 		RestTemplate restTemplate = new RestTemplate();
 		
 		HttpEntity<String> result = restTemplate.exchange(executeUri, HttpMethod.POST, entity, String.class, "");
-		System.out.println(result.getBody());
+		System.out.println(" >> Result GETBODY PAYPAL confirmPaypalPurchase: "+result.getBody());
 
 		this.cp.confirmPurchase(confirmId);
 	}

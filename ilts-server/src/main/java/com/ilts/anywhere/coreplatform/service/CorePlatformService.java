@@ -33,6 +33,11 @@ public class CorePlatformService {
 	 * 
 	 */
 	public Response processBetAction(final ArrayList<String> orderId, String date, String userId) {
+                  System.out.println(" +++++++++++++++++ process bet action +++++++++++++++++");     
+            System.out.println(">>>>>>>"+orderId);
+                        for(int i =0;i<orderId.size();i++)
+                        System.out.println("************ >>>>"+orderId.get(i));
+                        System.out.println(">>>>>>>"+userId);
 
 		if (!cp.isValidSession(userId, "")) {
 
@@ -119,7 +124,8 @@ public class CorePlatformService {
 	}
 	
 	public List<PurchaseWrapper> getPurchases(String userId) {
-		
+			System.out.println(">>>>>>>>>>>> List<PurchaseWrapper> getPurchases(String userId) Coreplatform servuicwe **"+userId);
+
 		return cp.getPurchases(userId);
 	}
 
@@ -155,7 +161,7 @@ public class CorePlatformService {
 	}
 
 	public void lottoGameSell(Purchase purchase, Response cpResponse) {
-		
+		System.out.println("-------------- Core PLATFORM lottoGameSell(Purchase purchase, Response cpResponse)");
 		// retrieve bet details
 		// TODO: parse purchase object
 		String lottoGame = "Lotto 6/42";

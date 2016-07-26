@@ -31,6 +31,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
 import org.hibernate.HibernateException;
+import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.jdbc.core.ResultSetExtractor;
 
@@ -144,19 +145,23 @@ public class JdbcOrderDAO implements OrderDAO {
     }
 
     public List<Order> getAll() throws SQLException, HibernateException, Exception {
-        String ordersSQL = "SELECT orders.order_id AS orderID,  orders.cost AS orderCost,  draw_id, games.o_game_name as gameName, "
-                + "games.o_game_cost as gameCost, system_name, users.user_name AS username, "
-                + "orders.active AS active, orders.deleted AS deleted "
-                + "FROM orders "
-                + "JOIN o_games as games ON orders.game_id = games.o_game_id "
-                + "LEFT JOIN users ON orders.user_id = users.user_id";
-
+//        String ordersSQL = "SELECT orders.order_id AS orderID,  orders.cost AS orderCost,  draw_id, games.o_game_name as gameName, "
+//                + "games.o_game_cost as gameCost, system_name, users.user_name AS username, "
+//                + "orders.active AS active, orders.deleted AS deleted "
+//                + "FROM orders "
+//                + "JOIN o_games as games ON orders.game_id = games.o_game_id "
+//                + "LEFT JOIN users ON orders.user_id = users.user_id";
+Query query = (Query) sessionFactory
+        .getCurrentSession().createSQLQuery(
+	"call getAllorders_proc")
+	.addEntity(StandardOrder.class);
         String drawSQL = "SELECT * FROM o_draws WHERE o_draw_id=?";
         String numbersSQL = "SELECT * FROM orders_numbers WHERE order_id=?";
 
-        List<Order> orders = new ArrayList<Order>();
+        List<Order> orders = new ArrayList<>();
 
-        List<Map<String, Object>> rows = this.jdbcTemplate.queryForList(ordersSQL);
+      //  List<Map<String, Object>> rows = this.jdbcTemplate.queryForList(ordersSQL);
+         List<Map<String, Object>> rows = query.list();
         for (Map row : rows) {
             StandardOrder order = (StandardOrder) OrderFactory.makeOrder(OrderType.STANDARD);
             order.setId(((String) (row.get("orderID"))));

@@ -64,7 +64,7 @@ public class SessionDAOImpl implements SessionDAO {
                 .add(Restrictions.eq("deleted", false))
                 .add(Restrictions.eq("token", token))
                 .list();
-
+System.out.print(">>>>> valid sessionj  --------------"+sessions.get(0));
         return !sessions.isEmpty();
     }
 

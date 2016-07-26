@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Copyright (c) 2010-2016 International Lottery & Totalizator Systems, Inc.
+ *
+ * File: OrdersNumbers.java
  */
 package com.ilts.anywhere.cart;
 
@@ -35,19 +35,6 @@ import org.hibernate.annotations.NaturalId;
 public class OrdersNumbers implements Serializable {
     private static final long serialVersionUID = 1L;
 
-//        @Id
-//    @Column(name = "orders_number_id", unique = true)
-//    @GeneratedValue(strategy =GenerationType.SEQUENCE,generator = "before_insert_orders_numbers_id")
-//    @GenericGenerator( 
-//    name="before_insert_orders_numbers_id", strategy="org.hibernate.id.SelectGenerator",
-//    parameters = {
-//        @org.hibernate.annotations.Parameter( name="keys", value="numbers" )
-//    }
-//)
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Basic(optional = false)
-//    @Column(name = "orders_number_id")
      @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "org.hibernate.id.GUIDGenerator")

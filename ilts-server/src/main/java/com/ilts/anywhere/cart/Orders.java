@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Copyright (c) 2010-2016 International Lottery & Totalizator Systems, Inc.
+ *
+ * File: Orders.java
  */
 package com.ilts.anywhere.cart;
 
@@ -10,6 +10,7 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.ilts.anywhere.authentication.model.User;
 import com.ilts.anywhere.games.model.Draw;
 import com.ilts.anywhere.games.model.Game;
+import com.ilts.anywhere.payment.model.PaymentPurchaseOrders;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -48,22 +49,15 @@ import org.hibernate.annotations.NaturalId;
 //    @NamedQuery(name = "Orders.findByDeleted", query = "SELECT o FROM Orders o WHERE o.deleted = :deleted"),
 //    @NamedQuery(name = "Orders.findByActive", query = "SELECT o FROM Orders o WHERE o.active = :active")})
 public class Orders implements Serializable {
+
     private static final long serialVersionUID = 1L;
-    
-//        @Id
-//    @Column(name = "order_id", unique = true)
-//    @GeneratedValue(generator = "guid")
-//    @GenericGenerator( name="guid", strategy="org.hibernate.id.GUIDGenerator")
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Basic(optional = false)
-//    @Column(name = "order_id")
-      @Id
+
+    @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "org.hibernate.id.GUIDGenerator")
-    @Column(name = "order_id", unique = true)  
+    @Column(name = "order_id", unique = true)
     private String orderId;
-     @JsonProperty ("system")
+    @JsonProperty("system")
 //     @NaturalId
     @Column(name = "system_name")
     private String systemName;
@@ -75,29 +69,32 @@ public class Orders implements Serializable {
     private Boolean active;
 //    @OneToMany(cascade = CascadeType.ALL, mappedBy = "orderId")
 //    private List<Purchases> purchasesList;
-    
-    @JsonProperty ("numbers")
+
+    @JsonProperty("numbers")
     @Transient
     private ArrayList<ArrayList<Integer>> numbers = new ArrayList<ArrayList<Integer>>();
 //    @OneToMany(cascade = CascadeType.ALL, mappedBy = "orderId")
 //    private List<OrdersNumbers> ordersNumbersList;
 //    @OneToMany(cascade = CascadeType.ALL, mappedBy = "orderId")
 //    private List<PaypalPurchaseOrders> paypalPurchaseOrdersList;
-    @JsonProperty ("gameID")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "orderId")
+    private List<PaymentPurchaseOrders> paymentPurchaseOrdersList;
+    @JsonProperty("gameID")
     @JoinColumn(name = "game_id", referencedColumnName = "o_game_id")
     @ManyToOne
     private Game gameId;
-    @JsonProperty ("drawID")
+    @JsonProperty("drawID")
     @JoinColumn(name = "draw_id", referencedColumnName = "o_draw_id")
     @ManyToOne
     private Draw drawId;
     @JoinColumn(name = "user_id", referencedColumnName = "user_id")
     @ManyToOne(optional = true)
     private User userId;
-    
-    @JsonProperty ("token")
+
+    @JsonProperty("token")
     @Transient
-private String token;
+    private String token;
+
     public Orders() {
     }
 
@@ -144,18 +141,22 @@ private String token;
     public void setActive(Boolean active) {
         this.active = active;
     }
+
     public ArrayList<ArrayList<Integer>> getNumbers() {
-		return numbers;
-	}
-	public void setNumbers(ArrayList<ArrayList<Integer>> numbers) {
-		this.numbers = numbers;
-	}
-        public String getToken() {
-		return token;
-	}
-	public void setToken(String token) {
-		this.token = token;
-	}
+        return numbers;
+    }
+
+    public void setNumbers(ArrayList<ArrayList<Integer>> numbers) {
+        this.numbers = numbers;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
 
 //    @XmlTransient
 //    public List<Purchases> getPurchasesList() {
@@ -165,7 +166,6 @@ private String token;
 //    public void setPurchasesList(List<Purchases> purchasesList) {
 //        this.purchasesList = purchasesList;
 //    }
-
 //    @XmlTransient
 //    public List<OrdersNumbers> getOrdersNumbersList() {
 //        return ordersNumbersList;
@@ -174,7 +174,6 @@ private String token;
 //    public void setOrdersNumbersList(List<OrdersNumbers> ordersNumbersList) {
 //        this.ordersNumbersList = ordersNumbersList;
 //    }
-
 //    @XmlTransient
 //    public List<PaypalPurchaseOrders> getPaypalPurchaseOrdersList() {
 //        return paypalPurchaseOrdersList;
@@ -183,7 +182,6 @@ private String token;
 //    public void setPaypalPurchaseOrdersList(List<PaypalPurchaseOrders> paypalPurchaseOrdersList) {
 //        this.paypalPurchaseOrdersList = paypalPurchaseOrdersList;
 //    }
-
     public Game getGameId() {
         return gameId;
     }
@@ -232,5 +230,5 @@ private String token;
     public String toString() {
         return "com.List_Test.Beanclasses.Orders[ orderId=" + orderId + " ]";
     }
-    
+
 }

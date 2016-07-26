@@ -33,10 +33,7 @@ import org.hibernate.annotations.GenericGenerator;
 //    @NamedQuery(name = "DrawStatuses.findByStatusName", query = "SELECT d FROM DrawStatuses d WHERE d.statusName = :statusName")})
 public class DrawStatusDetail implements Serializable {
     private static final long serialVersionUID = 1L;
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Basic(optional = false)
-//    @Column(name = "draw_statuses_id")
+
      @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "org.hibernate.id.GUIDGenerator")

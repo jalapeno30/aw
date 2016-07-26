@@ -171,7 +171,7 @@ System.out.println("*************** get token insertions ***********************
                     public String status = "success";
                     public String message = "successfully logged in";
                     public String token = session.getToken();
-                   
+                   public String userId = user.getUserId();
                     public String userName = user.getUserName();
                     public String role = user.getUserRolesList().listIterator().next().getUserRoleId();
                 };

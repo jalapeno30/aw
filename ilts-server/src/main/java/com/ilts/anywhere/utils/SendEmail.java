@@ -65,7 +65,6 @@ public class SendEmail {
             Transport transport = getMailSession.getTransport("smtp");
 
             transport.connect();
-//            transport.connect("ssanapureddy@ilts.com", "Prasanna@3483");
             transport.sendMessage(generateMailMessage, generateMailMessage.getAllRecipients());
             result = "Success";
             System.out.println("*****************Send Email result **** result " + result);

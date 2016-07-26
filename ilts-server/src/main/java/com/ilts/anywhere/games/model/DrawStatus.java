@@ -32,20 +32,7 @@ import org.hibernate.annotations.NaturalId;
 public class DrawStatus implements Serializable {
 
     private static final long serialVersionUID = 1L;
-//          @Id
-//    @Column(name = "draw_status_id", unique = true)
-//    @GeneratedValue(strategy =GenerationType.SEQUENCE,generator = "before_insert_draw_status")
-//    @GenericGenerator( 
-//    name="before_insert_draw_status", strategy="org.hibernate.id.SelectGenerator",
-//    parameters = {
-//        @org.hibernate.annotations.Parameter( name="keys", value="drawId" )
-//    }
-//)
 
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Basic(optional = false)
-//    @Column(name = "draw_status_id")
     @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "org.hibernate.id.GUIDGenerator")

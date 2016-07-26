@@ -13,7 +13,11 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
-jar {
+
+
+apply plugin: 'war'
+
+war {
     baseName = 'lottery-service'
     version =  '0.1.0'
 }
@@ -34,7 +38,8 @@ dependencies {
     compile("com.paypal.sdk:rest-api-sdk:1.4.1")
     compile("commons-dbcp:commons-dbcp:1.4")
     compile("javax.ws.rs:jsr311-api:0.11")
-    compile("com.sun.mail:javax.mail:1.5.5");
+    compile("com.sun.mail:javax.mail:1.5.5")
+	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat");
     testCompile("junit:junit")
 }
 

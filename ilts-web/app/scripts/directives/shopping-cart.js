@@ -48,7 +48,6 @@ function shoppingCart(Orders) {
     }
 
     vm.checkout = function() {
-      Orders.getGreeting();
       Orders.checkoutOrders();
       $location.path('/payment');
     }

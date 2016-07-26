@@ -55,7 +55,6 @@ public class CartService {
     CartService() {
     }
 
-  
     public Response insertOrder(String orderJSON) {
 
         Orders order = new Orders();
@@ -64,15 +63,15 @@ public class CartService {
             ObjectMapper mapper = new ObjectMapper();
             mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
             order = mapper.readValue(orderJSON, Orders.class);
-        System.out.println("________________________________JSON FOR Order__________________________________________");
-        System.out.println(order.getUserId());
-        System.out.println(order.getToken());
-        System.out.println(order.getNumbers());
-        System.out.println(order.getGameId() + "  ----  " + order.getUserId());
-        System.out.println(order.getDrawId());
-        System.out.println(order.getSystemName());
-        System.out.println("__________________________________________________________________________");
-      
+            System.out.println("________________________________JSON FOR Order__________________________________________");
+            System.out.println(order.getUserId());
+            System.out.println(order.getToken());
+            System.out.println(order.getNumbers());
+            System.out.println(order.getGameId() + "  ----  " + order.getUserId());
+            System.out.println(order.getDrawId());
+            System.out.println(order.getSystemName());
+            System.out.println("__________________________________________________________________________");
+
             if (this.sessionDAO.validSession(order.getToken())) {
                 // get user id
                 order.setUserId(this.sessionDAO.getUserId(order.getToken()));
@@ -82,8 +81,6 @@ public class CartService {
                 order.setCost(orderCost);
 
                 this.orderDAO.insert(order);
-//                System.out.println("______________________INSERT AFTER ____________________________________________________"+order.;
-                System.out.println("______________________INSERT AFTER ____________________________________________________"+order.getSystemName());
 
                 Logger.logMsg(CustomLogger.LogType.INFO, true, "Successfully placed order for  " + order.getGameId() + " and system :" + order.getSystemName());
 
@@ -91,7 +88,7 @@ public class CartService {
                 newOrderResponse.setMessage("Order placed successfully");
                 return newOrderResponse;
             } else {
-                Logger.logMsg(CustomLogger.LogType.DEBUG, true, "Error placing Order for" + order.getGameId()+ " and system :" + order.getSystemName());
+                Logger.logMsg(CustomLogger.LogType.DEBUG, true, "Error placing Order for" + order.getGameId() + " and system :" + order.getSystemName());
 
                 newOrderResponse = ResponseFactory.makeResponse(ResponseType.ERRORINVALIDSESSION);
                 newOrderResponse.setMessage("Invalid Session");
@@ -102,7 +99,7 @@ public class CartService {
             newOrderResponse = ResponseFactory.makeResponse(ResponseType.ERRORINVALIDSESSION);
             newOrderResponse.setMessage(String.format("Order cannot be placed due to - %s", ex.getMessage()));
         } catch (JsonGenerationException ex) {
-             Logger.logException(CustomLogger.LogType.SEVERE, true, "JsonGenerationException ", ex);
+            Logger.logException(CustomLogger.LogType.SEVERE, true, "JsonGenerationException ", ex);
             newOrderResponse = ResponseFactory.makeResponse(ResponseType.ERRORINVALIDSESSION);
             newOrderResponse.setMessage(String.format("Order cannot be placed due to - %s", ex.getMessage()));
         } catch (IOException ex) {
@@ -117,12 +114,11 @@ public class CartService {
         return newOrderResponse;
     }
 
- 
     public List<Order> getOrders(String userId) {
         List<Order> orders = null;
         try {
             orders = this.orderDAO.getAll(userId);
-           
+
         } catch (HibernateException ex) {
             Logger.logException(CustomLogger.LogType.SEVERE, true, "HibernateException", ex);
 
@@ -130,10 +126,9 @@ public class CartService {
             Logger.logException(CustomLogger.LogType.SEVERE, true, "Exception", ex);
 
         }
- 
-      return orders;  
-    }
 
+        return orders;
+    }
 
     public List<Order> getAllOrders() {
         List<Order> orders = null;
@@ -149,11 +144,10 @@ public class CartService {
         return orders;
     }
 
-
     public void deleteOrder(String id) {
         try {
             this.orderDAO.delete(id);
-        }catch (HibernateException ex) {
+        } catch (HibernateException ex) {
             Logger.logException(CustomLogger.LogType.SEVERE, true, "HibernateException", ex);
 
         } catch (Exception ex) {
@@ -161,7 +155,6 @@ public class CartService {
 
         }
     }
-
 
     private int calculateOrderCost(String gameId, String system, ArrayList<ArrayList<Integer>> numbers) {
         // retrieve game cost

@@ -27,7 +27,7 @@ public class JdbcTransactionDAO implements TransactionDAO {
 
 	@Override
 	public void insert(String userId, String description, Object data) throws DataAccessException, JsonProcessingException {
-		
+		System.out.println(" ****** insert Transaction lof ********* ");
 		String sql = "INSERT INTO transaction_log(userId, description, data) VALUES(?, ?, ?)";
 		
 		this.jdbcTemplate.update(sql, new Object[]{

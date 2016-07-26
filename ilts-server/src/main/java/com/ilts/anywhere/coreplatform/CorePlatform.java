@@ -70,6 +70,8 @@ public class CorePlatform {
 	}
 	
 	public List<PurchaseWrapper> getPurchases(String userId) {
+            	System.out.println(">>>>>>>>>>>> List<PurchaseWrapper> getPurchases(String userId) Coreplatform**"+userId);
+
 		return this.anywhereDB.getPurchases(userId);
 	}
 

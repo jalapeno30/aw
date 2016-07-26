@@ -16,18 +16,33 @@ function cardSelection() {
   return directive;
 
   function cardSelectionController() {
-    var vm = this;
-    vm.buttonSwitch;
+    var self = this;
+    self.newCard;
+    self.existingCards;
+    self.buttonSwitch;
     
-    vm.click=function(string){
-       vm.buttonSwitch = string;
-    }
+    self.click=function(string){
+       self.buttonSwitch = string;
+    }       
+//    temporary
+    self.cardList={
+        one:   {name: 'visa',number: '02020202'},
+        two:   {name: 'visa', number: '888888'},
+        three: {name: 'master', number: '654654654'},        
+    };
     
-    vm.toggle = function(string){
-        return string == vm.buttonSwitch ? true : false;
+    self.months = [1,2,3,4,5,6,7,8,9,10,11,12]
+    self.years = function(){
+    var yearRange = [];
+    for (var i = 2016; i <= 2036; i ++) yearRange.push(i);
+    return yearRange;
+    };
+    
+    self.pop = function(test){
+        bootbox.alert(test)
     }
   }
-
+  
   function cardSelectionLink(scope, elem, attr, ctrl) {
 
   }

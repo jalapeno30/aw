@@ -24,6 +24,7 @@ import org.springframework.http.ResponseEntity;
 
 @Controller
 public class CartController {
+
     @Autowired
     private CartService cartService;
 
@@ -31,7 +32,8 @@ public class CartController {
     private AuthenticationService authService;
 
     @RequestMapping("/cart/addOrder")
-    public @ResponseBody Object addOrder(@RequestBody String jsonRequest, HttpServletResponse response) {
+    public @ResponseBody
+    Object addOrder(@RequestBody String jsonRequest, HttpServletResponse response) {
         this.cartService.insertOrder(jsonRequest);
 
 //		return loginResponse;
@@ -41,8 +43,9 @@ public class CartController {
     }
 
     @RequestMapping("/cart/getOrders")
-    public @ResponseBody ResponseEntity<List<Order>> getOrders(@RequestParam(value="token", required = true) String token,
-                                                               HttpServletResponse response) {
+    public @ResponseBody
+    ResponseEntity<List<Order>> getOrders(@RequestParam(value = "token", required = true) String token,
+            HttpServletResponse response) {
         if (!this.authService.validSession(token)) {
             return new ResponseEntity<List<Order>>(HttpStatus.UNAUTHORIZED);
         } else {
@@ -58,8 +61,9 @@ public class CartController {
     }
 
     @RequestMapping("/cart/getAllOrders")
-    public @ResponseBody ResponseEntity<List<Order>> getAllOrders(@RequestParam(value="token", required = true) String token,
-                                                                  HttpServletResponse response) {
+    public @ResponseBody
+    ResponseEntity<List<Order>> getAllOrders(@RequestParam(value = "token", required = true) String token,
+            HttpServletResponse response) {
         if (!this.authService.validSession(token)) {
             return new ResponseEntity<List<Order>>(HttpStatus.UNAUTHORIZED);
         } else {
@@ -78,16 +82,18 @@ public class CartController {
     }
 
     @RequestMapping("/cart/getOrder")
-    public @ResponseBody Object getOrder(@RequestParam(value="userId", required=true) String userId,
-                                         @RequestParam(value="token", required=true) String token,
-                                         HttpServletResponse response) {
+    public @ResponseBody
+    Object getOrder(@RequestParam(value = "userId", required = true) String userId,
+            @RequestParam(value = "token", required = true) String token,
+            HttpServletResponse response) {
         return new Object() {
             public Boolean status = true;
         };
     }
 
     @RequestMapping(value = "/cart/removeOrder/{id}", method = RequestMethod.DELETE)
-    public @ResponseBody Object removeOrder(@PathVariable("id") String id, HttpServletResponse response) {
+    public @ResponseBody
+    Object removeOrder(@PathVariable("id") String id, HttpServletResponse response) {
         this.cartService.deleteOrder(id);
 
         return new Object() {

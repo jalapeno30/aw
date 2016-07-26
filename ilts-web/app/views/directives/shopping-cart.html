@@ -12,7 +12,7 @@
             <h3 class="panel-title">
                 {{ order.gameName }}
                 <div class="pull-right">
-                    <a href="" ng-click="shoppingCart.removeOrder(order.id)" translate style="cursor: pointer">SHOPPING_CART.REMOVE</a>
+                    <a href="" ng-class="shoppingCart.classSwitch()" ng-click="shoppingCart.removeOrder(order.id)" translate style="cursor: pointer">SHOPPING_CART.REMOVE</a>
                 </div>
             </h3>
           </div>

@@ -97,6 +97,17 @@ angular.module('lotteryApp')
             growl.addErrorMessage('Error removing bet from cart.');
         });
     };
+    
+    self.getOrderIds = function(){        
+        var ids = [];
+        
+        for (var i = 0; i < orders.length; i++) {
+            var order = orders[i];
+            ids.push(order.id);
+        }
+        
+        return ids;
+    };
 
     self.checkoutOrders = function() {
         var date = new Date();
@@ -122,18 +133,6 @@ angular.module('lotteryApp')
         $http.post(url, checkoutObject).then(function(response) {
             window.location = response.data.redirectURI;
         });
-    };
-    
-    self.getGreeting = function(){
-        var url = ENV.apiEndpoint + '/greeting';        
-        $http.get(url)
-            .success(function (data, status, headers, config) {
-                console.log(data);
-                return data;
-            }).error(function (data, status, headers, config) {
-                alert("error");
-                return status;
-            });
     };
 
     self.retrieveCheckouts = function() {

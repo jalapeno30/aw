@@ -34,19 +34,6 @@ import org.hibernate.annotations.GenericGenerator;
 public class GamesVendorReqs implements Serializable {
     private static final long serialVersionUID = 1L;
   
-//           @Id
-//    @Column(name = "user_id", unique = true)
-//    @GeneratedValue(strategy =GenerationType.SEQUENCE,generator = "before_insert_users_id")
-//    @GenericGenerator( 
-//    name="before_insert_users_id", strategy="org.hibernate.id.SelectGenerator",
-//    parameters = {
-//        @org.hibernate.annotations.Parameter( name="keys", value="userName" )
-//    }
-//)
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Basic(optional = false)
-//    @Column(name = "games_vendor_req_id")
       @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "org.hibernate.id.GUIDGenerator")

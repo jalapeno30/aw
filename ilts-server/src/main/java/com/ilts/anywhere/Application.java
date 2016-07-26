@@ -12,10 +12,13 @@ import java.util.Properties;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.web.SpringBootServletInitializer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.WebApplicationInitializer;
 
 import com.ilts.anywhere.logging.log.CustomLogger;
 import com.ilts.anywhere.logging.log.CustomLogger.LogType;
@@ -24,7 +27,7 @@ import com.ilts.anywhere.utils.Logger;
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
-public class Application {
+public class Application extends SpringBootServletInitializer implements WebApplicationInitializer{
 
     public static void main(String[] args) {
     	ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
@@ -36,5 +39,9 @@ public class Application {
         Logger.logMsg(CustomLogger.LogType.INFO, Boolean.TRUE, String.format("DetailedLogInfo=%s", Logger.getConfigParamValue("DetailedLogInfo")));
 
         SpringApplication.run(Application.class, args);
+    }
+   @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+         return application.sources(Application.class);
     }
 }

@@ -37,21 +37,7 @@ import org.hibernate.annotations.GenericGenerator;
 //    @NamedQuery(name = "Draws.findByDrawDate", query = "SELECT d FROM Draws d WHERE d.drawDate = :drawDate")})
 public class Draw implements Serializable {
     private static final long serialVersionUID = 1L;
-//          @Id
-//    @Column(name = "user_id", unique = true)
-//    @GeneratedValue(strategy =GenerationType.SEQUENCE,generator = "before_insert_users_id")
-//    @GenericGenerator( 
-//    name="before_insert_users_id", strategy="org.hibernate.id.SelectGenerator",
-//    parameters = {
-//        @org.hibernate.annotations.Parameter( name="keys", value="userName" )
-//    }
-//)
-    
-    
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Basic(optional = false)
-//    @Column(name = "o_draw_id")
+
       @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "org.hibernate.id.GUIDGenerator")

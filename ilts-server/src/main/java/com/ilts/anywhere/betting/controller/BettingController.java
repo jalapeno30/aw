@@ -48,7 +48,7 @@ public class BettingController {
 			@RequestParam(value="token", required = true) String token,
 			@RequestBody String jsonRequest,
 			HttpServletResponse response) {
-		
+		System.out.println("#################### /betting/purchaseBet #######################");
 		return bettingService.purchaseBet(jsonRequest, token);
 		
 //		if (!authService.validSession(token)) {
@@ -70,6 +70,7 @@ public class BettingController {
 	@RequestMapping("/betting/cancelBet")
 	public @ResponseBody Object cancel(
 			HttpServletResponse response) {
+		System.out.println("#################### /betting/cancelBet #######################");
 
 		return new Object() {};
 	}
@@ -80,6 +81,7 @@ public class BettingController {
 	@RequestMapping("/betting/calculateBetCost")
 	public @ResponseBody Object calculate(
 			HttpServletResponse response) {
+		System.out.println("#################### /betting/calculateBetCost #######################");
 
 		return new Object() {};
 	}
@@ -90,6 +92,7 @@ public class BettingController {
 	@RequestMapping("/betting/prevalidateBet")
 	public @ResponseBody Object prevalidate(
 			HttpServletResponse response) {
+		System.out.println("#################### /betting/prevalidateBet #######################");
 
 		return new Object() {};
 	}
@@ -101,6 +104,7 @@ public class BettingController {
 	@RequestMapping("/betting/requestBetPayout")
 	public @ResponseBody Object payout(
 			HttpServletResponse response) {
+		System.out.println("#################### /betting/requestBetPayout #######################");
 
 		return new Object() {};
 	}
@@ -109,7 +113,8 @@ public class BettingController {
 	public @ResponseBody ResponseEntity<List<PurchaseWrapper>> getPurchases(
 			@RequestParam(value="token", required = true) String token,
 			HttpServletResponse response) {
-		
+		System.out.println("#################### /betting/getPurchases #######################");
+
 		if (!authService.validSession(token)) {
 			
 			return new ResponseEntity<List<PurchaseWrapper>>(HttpStatus.UNAUTHORIZED);
@@ -117,6 +122,7 @@ public class BettingController {
 		} else {
 			
 			String userId = authService.getUserId(token);
+                        System.out.println(">>>>>>>>>>>> /betting/getPurchases **"+userId);
 			List<PurchaseWrapper> purchases = bettingService.getPurchases(userId);
 			return new ResponseEntity<List<PurchaseWrapper>>(purchases, HttpStatus.OK);
 			
@@ -141,6 +147,8 @@ public class BettingController {
 			HttpServletResponse response) throws ParseException {
 		
 		if (!authService.validSession(token)) {
+                    System.out.println("#################### /betting/getPurchasesCustom #######################");
+
 			
 			return new ResponseEntity<List<BetPurchase>>(HttpStatus.UNAUTHORIZED);
 			
@@ -170,7 +178,8 @@ public class BettingController {
 	public @ResponseBody ResponseEntity<List<BetPurchase>> getAllPurchases(
 			@RequestParam(value="token", required = true) String token,
 			HttpServletResponse response) {
-		
+		System.out.println("#################### /betting/getAllPurchases #######################");
+
 		if (!authService.validSession(token)) {
 			
 			return new ResponseEntity<List<BetPurchase>>(HttpStatus.UNAUTHORIZED);
@@ -198,7 +207,8 @@ public class BettingController {
 			@RequestParam(value="id", required=true) String confirmId,
 			@RequestParam(value="token", required=false) String token,
 			HttpServletResponse response) {
-		
+	System.out.println("#################### /betting/paypal/confirm #######################");
+	
 		paymentService.confirmPaypalPurchase(payerId, confirmId);
 		return "";
 	}
@@ -208,7 +218,9 @@ public class BettingController {
 			@RequestParam(value="id", required=true) String cancelId,
 			@RequestParam(value="token", required=false) String token,
 			HttpServletResponse response) {
-		
+            
+            
+            System.out.println("#################### /betting/paypal/cancel #######################");
 		paymentService.cancelPaypalPurchase(cancelId);
 		return "";
 	}
@@ -224,7 +236,7 @@ public class BettingController {
 			@RequestParam(value="date_values_end", required = false, defaultValue="") String dateValuesEnd,
 			@RequestParam(value="date_values_start", required = false, defaultValue="") String dateValuesStart,
 			HttpServletResponse response) {
-		
+	System.out.println("#################### /betting/getRecoveryData #######################");	
 		if (!this.authService.validSession(token)) {
 			return new ResponseEntity<List<Object>>(HttpStatus.UNAUTHORIZED);
 		} else {
@@ -243,7 +255,7 @@ public class BettingController {
 	public @ResponseBody ResponseEntity<List<Object>> transactionLog(
 			@RequestParam(value="token", required = true) String token,
 			HttpServletResponse response) {
-		
+		System.out.println("#################### /betting/getTransactionLog #######################");
 		if (!this.authService.validSession(token)) {
 			return new ResponseEntity<List<Object>>(HttpStatus.UNAUTHORIZED);
 		} else {
@@ -263,7 +275,7 @@ public class BettingController {
 	public @ResponseBody ResponseEntity<List<Object>> purchaseLog(
 			@RequestParam(value="token", required = true) String token,
 			HttpServletResponse response) {
-		
+	System.out.println("#################### /betting/getPurchaseLog #######################");	
 		if (!this.authService.validSession(token)) {
 			return new ResponseEntity<List<Object>>(HttpStatus.UNAUTHORIZED);
 		} else {
@@ -283,7 +295,7 @@ public class BettingController {
 	public @ResponseBody ResponseEntity<List<Object>> activePurchaseLog(
 			@RequestParam(value="token", required = true) String token,
 			HttpServletResponse response) {
-		
+	System.out.println("#################### /betting/getActivePurchaseLog #######################");		
 		if (!this.authService.validSession(token)) {
 			return new ResponseEntity<List<Object>>(HttpStatus.UNAUTHORIZED);
 		} else {
@@ -303,7 +315,7 @@ public class BettingController {
 	public @ResponseBody ResponseEntity<List<Object>> currentPurchaseLog(
 			@RequestParam(value="token", required = true) String token,
 			HttpServletResponse response) {
-		
+	System.out.println("#################### /betting/getCurrentPurchaseLog #######################");	
 		if (!this.authService.validSession(token)) {
 			return new ResponseEntity<List<Object>>(HttpStatus.UNAUTHORIZED);
 		} else {
@@ -328,6 +340,7 @@ public class BettingController {
 			@RequestParam(value="numberOfBetlines", required = true) Integer numberOfBetlines,
 			@RequestParam(value="betlinesData", required = true) List<Object> betlinesData,
 			HttpServletResponse response) {
+            System.out.println("#################### /betting/lottoGameSell #######################");
 		return null;
 	}
 	
@@ -335,6 +348,7 @@ public class BettingController {
 	public @ResponseBody ResponseEntity<Object> pendingBets(
 			@RequestParam(value="token", required = true) String token,
 			HttpServletResponse response) {
+              System.out.println("#################### /betting/pending #######################");
 		return bettingService.listPendingByUser(token);
 	}
 	
@@ -342,6 +356,7 @@ public class BettingController {
 	public @ResponseBody ResponseEntity<Object> pendingBetsCost(
 			@RequestParam(value="token", required = true) String token,
 			HttpServletResponse response) {
-		return bettingService.pendingBetsCost(token);
+	System.out.println("#################### /betting/pending/cost #######################");
+            return bettingService.pendingBetsCost(token);
 	}
 }

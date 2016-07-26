@@ -14,6 +14,7 @@ angular.module('lotteryApp')
 
         self.logged = (localStorageService.get('logged') === null) ? false : localStorageService.get('logged');
         self.name = (localStorageService.get('username') === null) ? "" : localStorageService.get('username');
+        self.id = (localStorageService.get('userId') === null) ? "" : localStorageService.get('userId');
 
         self.isAdmin = function () {
             return (localStorageService.get('role') === "Administrator");
@@ -32,13 +33,15 @@ angular.module('lotteryApp')
                 if (data.status === "success") {
                     self.logged = true;
                     self.name = username;
-
+                    console.log(data.userName);
                     localStorageService.remove('logged');
                     localStorageService.set('logged', true);
                     localStorageService.remove('sessionToken');
                     localStorageService.set('sessionToken', data.token);
                     localStorageService.remove('username');
-                    localStorageService.set('username', data.user_name);
+                    localStorageService.set('username', data.userName);
+                    localStorageService.remove('userId');
+                    localStorageService.set('userId', data.userId);
                     localStorageService.remove('role');
                     localStorageService.set('role', data.role);
                     growl.addSuccessMessage('You have successfully logged in.');
@@ -69,7 +72,6 @@ angular.module('lotteryApp')
             localStorageService.remove('sessionToken');
             localStorageService.remove('username');
             localStorageService.remove('role');
-
             self.logged = false;
             growl.addSuccessMessage('You have successfully logged out.');
         };

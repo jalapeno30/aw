@@ -3,6 +3,7 @@ package com.ilts.anywhere.authentication.model;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.ilts.anywhere.betting.model.Bet;
+import com.ilts.anywhere.payment.model.PaymentPurchases;
 import javax.persistence.*;
 
 import java.io.Serializable;
@@ -113,7 +114,8 @@ public class User implements Serializable {
     private List<UserRoles> userRolesList;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "userId")
     private List<UserStatus> userStatusList;
-
+@OneToMany(cascade = CascadeType.ALL, mappedBy = "userId")
+    private List<PaymentPurchases> paymentPurchasesList;
 //    @OneToMany(cascade = CascadeType.ALL, mappedBy = "userId")
 //    private List<Order> ordersList;
     public User() {

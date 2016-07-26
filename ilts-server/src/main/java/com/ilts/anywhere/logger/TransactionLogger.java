@@ -25,7 +25,8 @@ public class TransactionLogger {
 	}	
 	
 	public void logTransaction(String userId, String description, Object data) {
-		try {
+	System.out.println(" ****** logTransaction Transaction lof ********* ");	
+            try {
 			this.transactionDAO.insert(userId, description, data);
 		} catch (DataAccessException e) {
 			// TODO Auto-generated catch block
