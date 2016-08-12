@@ -14,58 +14,65 @@ and open the template in the editor. /it3
     
     <div class="container-fluid">
         
-        <div class="row" id="payment-screen-top">
-            <div class="col-xs-12">
-                <div class="col-xs-3" ng-repeat="tab in pay.tabs">
+        <div class="row top-margin-30" id="payment-screen">
+            <div class="col-xs-12" id="payment-screen-top">
+                <div class="col-xs-3 text-center btn-full" ng-repeat="tab in pay.tabs">
                     <button ng-class="pay.tabClass(tab.tabId)" class="btn btn-block" ng-click="pay.tabClick(tab.tabId)" ng-disabled="pay.tabIsActive(tab.tabId)">{{tab.tabName}}</button>
               </div>
             </div>
         </div>       
         
-        <div class="row" id="payment-screen-content">
+        <div class="col-xs-12" id="payment-screen-content">
             <shopping-cart toggle="payment" ng-show="pay.tabContent(0)"></shopping-cart>
             <card-selection  ng-show="pay.tabContent(1)"></card-selection>
             <transaction-review ng-show="pay.tabContent(2) || pay.tabContent(3) "></transaction-review>
             <payment-success ng-show="pay.tabContent(4)"></payment-success>
         </div>       
        
-        <div class="row" id="payment-screen-bottom">
-            <div class="col-xs-6 "></div>
+        <div class="row bottom-margin-30" id="payment-screen-bottom">
             
-            <div class="col-xs-6" ng-show="pay.tabContent(0)">
-                <div class="col-xs-4"></div>
-                <div class="col-xs-4">
-                    <button class="btn btn-block" ng-click="pay.exit()">Exit</button>
-                </div>
-                <div class="col-xs-4">
-                    <button class="btn btn-block" ng-click="pay.continue()">Continue</button>
+            <div class="col-xs-4 "></div>
+            
+            <div class="col-xs-4" ng-show="pay.tabContent(0)">               
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group" role="group">
+                        <button class="btn  btn-danger" ng-click="pay.exit()">Exit</button>
+                    </div>
+                    <div class="btn-group" role="group"></div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-warning" ng-click="pay.continue()">Continue</button>
+                    </div>
                 </div>
             </div>
             
-            <div class="col-xs-6" ng-hide="pay.tabContent(0) || pay.tabContent(4)">
-                <div class="col-xs-4">
-                    <button class="btn btn-block" ng-click="pay.exit()">Exit</button>
-                </div>
-                <div class="col-xs-4">
-                    <button class="btn btn-block" ng-click="pay.back(1)">Back</button>
-                </div>
-                <div class="col-xs-4">
-                    <button class="btn btn-block" ng-hide="pay.tabContent(3)" ng-click="pay.continue()">Continue</button>
-                    <button class="btn btn-block" ng-show="pay.tabContent(3)" ng-click="pay.continue()">Buy Now</button>
+            <div class="col-xs-4 top-margin-30" ng-hide="pay.tabContent(0) || pay.tabContent(4)">            
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-danger" ng-click="pay.exit()">Exit</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button class="btn" ng-click="pay.back(1)">Back</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                    <button class="btn  btn-warning" ng-hide="pay.tabContent(3)" ng-click="pay.continue()">Continue</button>
+                    <button class="btn btn-primary" ng-show="pay.tabContent(3)" ng-click="pay.continue()">Buy Now</button>
+                    </div>
                 </div>
             </div>
             
-            <div class="col-xs-6" ng-show="pay.tabContent(4)">
-                <div class="col-xs-8"></div>
-                <div class="col-xs-4">
-                    <button class="btn btn-block" ng-click="pay.complete()">Exit</button>
+            <div class="col-xs-4 top-margin-30" ng-show="pay.tabContent(4)">              
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group" role="group"></div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-danger" ng-click="pay.exit()">Exit</button>
+                    </div>
+                    <div class="btn-group" role="group"></div>
                 </div>
             </div>
-        
+
         </div>  
         
     </div>
-
 </body>
 </html>
 

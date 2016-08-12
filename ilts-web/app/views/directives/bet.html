@@ -2,7 +2,7 @@
     <div>
         <tabset id="gameTabs" style="padding: 0 10px">
             <!--<bet-game ng-repeat="game in bet.games" game="game"></bet-game>-->
-            <tab ng-repeat="game in bet.games" heading="{{ game.gameName }}">
+            <tab ng-repeat="game in bet.games" heading="{{ game.gameName }}" ng-click="bet.gameChange()">
                 <bet-game game="game"></bet-game>
                 <shopping-cart></shopping-cart>
             </tab>

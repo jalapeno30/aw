@@ -1,29 +1,123 @@
 <div class="col-md-12">
   <h3 translate>Profile</h3>
 </div>
-<div class="col-md-1">&nbsp;</div>
-<div class="col-md-10">
-	<div ng-show="!paypal.loggedIn">
-		<span id="myContainer"></span>
 
-		<script>
-      if (typeof paypal !== 'undefined'){
-        paypal.use( ["login"], function(login) {
-          login.render ({
-            "appid": "Ab-C3RCJH_5gDPZDStPNKRBk5gwbi_SCd8zdVA17rz9vlGk2YUzkJ5ifWE5H",
-            "authend": "sandbox",
-            "scopes": "profile email",
-            "containerid": "myContainer",
-            "locale": "en-us",
-            "returnurl": "http://127.0.0.1:9000/#/paypal-callback"
-          });
-        });
-      }
-
-		</script>
-	</div>
-	<div ng-show="paypal.loggedIn">
-		<h4>Paypal Profile</h4>
-	</div>
+<div class="col-xs-12">
+    <div class="row">
+    <div class="col-xs-12 col-lg-6">
+        <div id="pro-search" class="col-sm-10 col-sm-push-2">
+            <h3 ng-hide="pro.loggedAdmin">{{pro.currentUser.user_name}}</h3>
+            <div class="input-group" ng-show="pro.loggedAdmin">
+                <p class="form-control">{{pro.currentUser.user_name}}<p>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">SEARCH</button>
+                    <ul class="dropdown-menu pull-right scrollable">
+                        <li ng-repeat="d in pro.dummyData | orderBy: 'user_name'" ng-click="pro.userSet(d.user_name)"><a>{{d.user_name}}</a></li>        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </div>
-<div class="col-md-1">&nbsp;</div>
+   
+<div class="col-xs-12 col-lg-6">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proPass" ng-model="pro.currentUser.password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">First Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proFirst" ng-model="pro.currentUser.first_name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Last Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proLast" ng-model="pro.currentUser.last_name">
+            </div>
+        </div>   
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Birthdate</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proBirth" ng-model="pro.currentUser.birth_date">
+            </div>
+        </div>  
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="proGender">Gender:</label>
+            <div class='col-sm-10 '><select class="form-control" id="proGender" ng-model="pro.currentUser.gender">
+                <option value=" "> </option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select></div>
+        </div>  
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="proEmail" ng-model="pro.currentUser.email_id">
+            </div>
+        </div>  
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Phone</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proPhone" ng-model="pro.currentUser.phone_number">
+            </div>
+        </div>  
+    </form>
+</div>
+
+<div class="col-xs-12 col-lg-6">
+    <hr class='hidden-lg' />
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Address 1</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proAddress1" ng-model="pro.currentUser.address_1">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Address 2</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proAddress2" ng-model="pro.currentUser.address_2">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">City</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proCity" ng-model="pro.currentUser.city">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">State</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proState" ng-model="pro.currentUser.state">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Zip</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proZip" ng-model="pro.currentUser.zipcode">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Country</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="proCountry" ng-model="pro.currentUser.country">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-6 col-sm-push-6">
+                <div class="button-group pull-right">
+                    <button class='btn btn-primary' ng-click="pro.submit()">Submit</button>
+                    <button class='btn btn-primary ' ng-click="pro.reset()">Reset</button>
+                    <button class='btn btn-danger' ng-click="pro.cancel()">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <pre>{{pro.submitPost}}</pre>
+    </form>
+</div>

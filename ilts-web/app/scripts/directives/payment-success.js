@@ -9,17 +9,20 @@ function paymentSuccess() {
     restrict: 'E',
     controller: paymentSuccessController,
     controllerAs: 'paymentSuccess',
-    link: paymentSuccess,
     templateUrl: 'views/directives/payment-success.html'
   };
 
   return directive;
 
-  function paymentSuccessController() {
-    var vm = this;
-  }
-
-  function paymentSuccessLink(scope, elem, attr, ctrl) {
-
+  function paymentSuccessController(Payment, Orders, $scope) {
+    var self = this;
+    self.name;
+    //transId will come from payment-screen.js
+    self.d = new Date().toLocaleDateString();
+    self.o = Orders.getTotalAmount();
+    
+    $scope.$watch(function() { return Payment.cardReview}, function(newVal) { 
+        self.name = newVal; 
+   }, true);
   }
 }

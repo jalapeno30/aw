@@ -20,8 +20,6 @@ angular.module('lotteryApp')
             return (localStorageService.get('role') === "Administrator");
         };
 
-        // console.log(localStorageService.get('username'));
-
         self.logIn = function (username, password) {
             $http.get(ENV.apiEndpoint + '/authentication/userLogin', {
                 params: {
@@ -72,12 +70,21 @@ angular.module('lotteryApp')
             localStorageService.remove('sessionToken');
             localStorageService.remove('username');
             localStorageService.remove('role');
+            localStorageService.remove('userId');
             self.logged = false;
             growl.addSuccessMessage('You have successfully logged out.');
         };
 
         self.getToken = function () {
             return (localStorageService.get('sessionToken') === null) ? false : localStorageService.get('sessionToken');
+        };
+        
+        self.getId = function () {
+            return (localStorageService.get('userId') === null) ? false : localStorageService.get('userId');
+        };
+        
+        self.getName = function () {
+            return (localStorageService.get('username') === null) ? false : localStorageService.get('username');
         };
 
         self.register = function (data) {
@@ -126,6 +133,25 @@ angular.module('lotteryApp')
                     // console.log(data);
                 });
         };
+        
+        self.updateUser = function(token, userId, userData){
+        var url = ENV.apiEndpoint + '/betting/purchaseBet?token=' + token;    
+        var date = new Date();
+        var options = {
+            weekday: "long", year: "numeric", month: "short",
+            day: "numeric", hour: "2-digit", minute: "2-digit"
+        };
+        var data = {
+          userId: userId,
+          orderIds: orderIds,
+        };
+        //this should return a transactionId or send an error. TransId assigned back to service from controller
+        return $http.post(url, data).then(function(response){
+            return response;
+        }, function(response){  
+            return response;            
+        });  
+    };  
     });
 
 angular.module('lotteryApp')

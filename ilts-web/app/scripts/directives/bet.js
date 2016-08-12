@@ -10,7 +10,7 @@ angular
     .directive('bet', bet)
     .directive('betGame', betGame);
 
-function bet(LotteryGames) {
+function bet(LotteryGames, LotteryGame) {
     var directive = {
         restrict: 'E',
         scope: {},
@@ -26,9 +26,12 @@ function bet(LotteryGames) {
 
     function betController() {
         var vm = this;
-
         vm.games = [];
-
+        //alert lottery game of game change
+        vm.gameChange= function() {
+            LotteryGame.setFlag();
+        };
+        
         vm.init = function() {
             // fetch games
             LotteryGames.fetchGames().then(function(){
@@ -61,7 +64,6 @@ function betGame(LotteryGame, $modal, Order, Orders, growl) {
 
     function betGameController($scope) {
         var vm = this;
-
         vm.draws = [];
         vm.systems = [];
         vm.displayNumbers = [];
@@ -79,6 +81,7 @@ function betGame(LotteryGame, $modal, Order, Orders, growl) {
                 vm.activeSystem = vm.systems[1];
                 vm.system = vm.activeSystem.systemName;
             });
+            //this controls the length of each row in number grid
             LotteryGame.fetchDisplayNumbers(vm.game.gameId).then(function() {
                 vm.displayNumbers = LotteryGame.getDisplayNumbers()[0];
                 vm.auto=LotteryGame.getAuto();
@@ -98,7 +101,7 @@ function betGame(LotteryGame, $modal, Order, Orders, growl) {
             };     
         };
         
-        //don't lucky pick if number set already has auto=play or other numbers
+        //don't lucky pick if number set already has selected numbers or autoplay
         vm.luckyPick = function() {
             if(LotteryGame.canLucky(vm.game.gameId)){
                 var randomSet = randomNumberSet(vm.game.gameNumbers, vm.activeSystem.systemNumber);
@@ -137,15 +140,16 @@ function betGame(LotteryGame, $modal, Order, Orders, growl) {
 //            }
 //        };
         
+        //changed the addOrder function
         vm.addOrder = function() {
             var numbSets = LotteryGame.getNumberSets(vm.game.gameId)
             var totalNumSets = LotteryGame.getNumberSets(vm.game.gameId).length;
             var systemNum = vm.activeSystem.systemNumber;            
             var emptyCheck = 0;
-            var tooFewNumbers = false;
-            var i=0;
+            var tooFewNumbers = false;           
             
-            //make sure each number set has enough numbers, or is empty
+            //make sure each number set has enough numbers, or is empty before submittng
+            var i=0;
             for (i=0; i< totalNumSets; i++){
                 emptyCheck += numbSets[i].length;
                 if(numbSets[i].length > 0  &&  numbSets[i].length < systemNum){
@@ -154,8 +158,7 @@ function betGame(LotteryGame, $modal, Order, Orders, growl) {
             }
 
             //make sure there is atleast one number set (empty check), make sure all number sets are full, make sure a draw is selected
-            if(emptyCheck > 0 && !tooFewNumbers && vm.selectedDraws){
-                 
+            if(emptyCheck > 0 && !tooFewNumbers && vm.selectedDraws){                 
                 for (var key in vm.selectedDraws) {
                     if (vm.selectedDraws[key]){
                         var order = new Order();
@@ -174,7 +177,7 @@ function betGame(LotteryGame, $modal, Order, Orders, growl) {
             }else if(emptyCheck == 0){
                 growl.addErrorMessage('Select at least one number set.');
             }else if(tooFewNumbers){
-                growl.addErrorMessage('Select ' + systemNum + ' numbers for each numbet set' );cli
+                growl.addErrorMessage('Select ' + systemNum + ' numbers for each numbet set' );
             }else growl.addErrorMessage('Select Draw'); 
         };
         

@@ -31,7 +31,7 @@
             <div class="form-group">
                 <label class="col-sm-2 control-label" for="register_last_name">Last Name<font color="red">*</font></label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" name="register_last_name" id="register_last_name" placeholder="Last Name" ng-model="user.last_name" ng-maxlength="25" ng-required="true" />
+                    <input type="text" class="form-control" name="register_last_name" id="register_last_name" placeholder="Last Name" ng-model="user.last_name" ng-maxlength="25" ng-minlength="5" ng-required="true" required>
                     <span class="error alert-warning" ng-show="registerForm.register_last_name.$error.maxlength"><i class="glyphicon glyphicon-exclamation-sign"></i>Exceed maximum length of 25</span>
                 </div>
             </div>

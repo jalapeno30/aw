@@ -58,7 +58,6 @@ angular.module('lotteryApp')
                     growl.addSuccessMessage('Successfully added to cart.');
                 })
                 .error(function(data, status, headers, config) {
-                    // console.log("error", data)
                     growl.addErrorMessage('Error adding to cart.');
                 });
         }
@@ -85,17 +84,28 @@ angular.module('lotteryApp')
     self.getOrders = function() {
         return orders;
     };
+    
 
-    self.removeOrder = function(orderID) {
+
+    self.removeOrder = function(orderID, noGrowl) {
         var url = ENV.apiEndpoint + '/cart/removeOrder/' + orderID;
         $http.delete(url).success(function(data, status, headers, config) {
             // console.log(data);
             self.refreshOrders();
-            growl.addSuccessMessage('Removed bet from cart.');
+            if(!noGrowl){
+                growl.addSuccessMessage('Removed bet from cart.');
+            }          
         })
         .error(function(){
             growl.addErrorMessage('Error removing bet from cart.');
         });
+    };
+    
+    self.removeAllOrders = function(orderIds){
+        for(var i=0; i<orderIds.length; i++){
+            self.removeOrder(orderIds[i], true);
+        }
+        
     };
     
     self.getOrderIds = function(){        

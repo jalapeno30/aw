@@ -69,7 +69,8 @@ angular.module('lotteryApp', [
         })
         .when('/user-profile', {
             templateUrl: 'views/user-profile.html',
-            controller: 'UserProfileCtrl'
+            controller: 'UserProfileCtrl',
+            controllerAs: 'pro'
         })
         //it3
         .when('/payment', {

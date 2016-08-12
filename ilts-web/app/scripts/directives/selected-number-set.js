@@ -50,8 +50,7 @@ function selectedNumberSet(LotteryGame, $rootScope) {
                 return vm.luckyPicks.indexOf(idx)>-1;
             }
         };
-        
-        
+                
         vm.clear = function(idx) {
             LotteryGame.assignNumberSetToCurrentSet(vm.game.gameId, []);
             if(vm.isLucky(idx)){
@@ -59,6 +58,14 @@ function selectedNumberSet(LotteryGame, $rootScope) {
             };
 
         };
+        
+        $scope.$on('noClick', function(event, data) {
+            vm.chooseCurrent(data);
+        });
+        
+        $scope.$watch(function() {return LotteryGame.flag;}, function() {
+            vm.chooseCurrent(0);
+        });
     }
 
     function selectedNumberSetLink(scope, elem, attrs, ctrl) {

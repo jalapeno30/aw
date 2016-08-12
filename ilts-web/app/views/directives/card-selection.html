@@ -1,87 +1,144 @@
-<div class="col-xs-12 topMargin30">
-    <div class="row">
+<div class="col-xs-12 top-margin-30">
         
-        <div class="col-xs-4">
-            <button class="btn btn-block" ng-click="cardSelection.click('new')">New Card</button>
-            <button class="btn btn-block topMargin30" ng-click="cardSelection.click('existing')">Existing Card</button>
-        </div>
-        
-        <div ng-switch="cardSelection.buttonSwitch">
-            
-            <div class="col-xs-8" ng-switch-when="new">
-                <div class="col-xs-6">
-                    <form role="form" class="form-horizontal">
-                        <div class="form-group">
-                            <div class="col-xs-12"><input type="text" class="form-control" ng-model="pay.newCard.cardFirst" placeholder="First Name"></div>                  
+    <div class="col-xs-4">
+        <button class="btn btn-block" ng-click="cardSelection.click('new'); pay.cardToggle('new')">New Card</button>
+        <button class="btn btn-block top-margin-30" ng-click="cardSelection.click('existing'); pay.cardToggle('existing')">Existing Card</button>
+    </div>
+
+    <div ng-switch="cardSelection.buttonSwitch">            
+
+        <div class="col-xs-8" ng-switch-when="new">
+            <!-- LEFT -->
+            <div class="col-xs-6">
+                <form role="form" name ="ccForm" class="form-horizontal">
+                    <div class="form-group" ng-class="{ 'has-error' : ccForm.first.$invalid && ccForm.first.$touched }">
+                        <div class="col-xs-12">
+                            <input ng-pattern="/^[a-zA-Z\s]*$/" type="text" name = "first" class="form-control" ng-model="pay.newCard.cardFirstname" placeholder="First Name" required>
+                            <p ng-show="ccForm.first.$invalid && ccForm.first.$touched" class="help-block">First Name Required</p>
+                        </div>                  
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' : ccForm.last.$invalid && ccForm.last.$touched }">
+                        <div class="col-xs-12">
+                            <input ng-pattern="/^[a-zA-Z\s]*$/" type="text" name = "last" class="form-control" ng-model="pay.newCard.cardLastname" placeholder="Last Name" required>
+                            <p ng-show="ccForm.last.$invalid && ccForm.last.$touched" class="help-block">Last Name Required</p>
+                        </div>                  
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' : ccForm.cardNumber.$invalid && ccForm.cardNumber.$touched }">
+                        <div class="col-xs-12">
+                            <input ng-pattern="/^[0-9]+$/" ng-minlength="16" maxlength="16" type="text" name = "cardNumber" class="form-control" ng-model="pay.newCard.cardNumber" placeholder="Card Number" required>
+                            <p ng-show="ccForm.cardNumber.$invalid && ccForm.cardNumber.$touched" class="help-block">Valid Card Required</p>
+                        </div>                  
+                    </div>              
+                    <div class="form-group">
+                        <div class="col-xs-8"  ng-class="{ 'has-error' : ccForm.cardType.$invalid && ccForm.cardType.$touched }">
+                            <select class="form-control" name="cardType" ng-model="pay.newCard.cardType" required>
+                                <option value=''>Card Type</option><option value='master'>Master Card</option>
+                            </select>
+                            <p ng-show="ccForm.cardType.$invalid && ccForm.cardType.$touched" class="help-block">Card Type Required</p>
                         </div>
-                        <div class="form-group">
-                            <div class="col-xs-12"><input type="text" class="form-control" ng-model="cardSelection.newCard.cardLast" placeholder="Last Name"></div>                  
+                        <div class="col-xs-4"  ng-class="{ 'has-error' : ccForm.cardCvvNumber.$invalid && ccForm.cardCvvNumber.$touched }">
+                            <input ng-pattern="/^[0-9]+$/" ng-minlength="3" maxlength="3" type="text" name = "cardCvvNumber" class="form-control" ng-model="pay.newCard.cardCvvNumber" placeholder="CVV" required>
+                            <p ng-show="ccForm.cardCvvNumber.$invalid && ccForm.cardCvvNumber.$touched" class="help-block">Valid CVV Required</p>
                         </div>
-                        <div class="form-group">
-                            <div class="col-xs-12"><input type="text" class="form-control" ng-model="cardSelection.newCard.cardNumber" placeholder="Card Number"></div>                  
-                        </div>                
-                        <div class="form-group">
-                            <div class="col-xs-8">
-                                <select class="form-control" ng-model="cardSelection.newCard.cardType">
-                                    <option value=''>Card Type</option><option value='master'>Master Card</option>
-                                </select>
+                    </div>
+                    <div class="form-group" >
+                        <div class="col-xs-6" ng-class="{ 'has-error' : ccForm.expirationMonth.$invalid && ccForm.expirationMonth.$touched }">
+                            <select class="form-control" name="expirationMonth" ng-model="pay.newCard.expirationMonth" required>
+                                <option value=''>Expiration Month</option><option ng-repeat ="month in cardSelection.months" value="{{month}}">{{month}}</option>
+                            </select>
+                             <p ng-show="ccForm.expirationMonth.$invalid && ccForm.expirationMonth.$touched" class="help-block">Required</p>
+                        </div>
+                        <div class="col-xs-6" ng-class="{ 'has-error' : ccForm.expirationYear.$invalid && ccForm.expirationYear.$touched }">
+                            <select class="form-control" name="expirationYear" ng-model="pay.newCard.expirationYear" required>
+                                <option value=''>Expiration Year</option><option ng-repeat ="year in cardSelection.years()" value="{{year}}">{{year}}</option>
+                            </select>
+                             <p ng-show="ccForm.expirationYear.$invalid && ccForm.expirationYear.$touched" class="help-block">Required</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <div class="checkbox">
+                              <label>Save Card<input type="checkbox" ng-model="pay.newCard.saveCard"></label>
                             </div>
-                            <div class="col-xs-4">
-                                <input type="text" class="form-control" ng-model="cardSelection.newCard.cardCvv" placeholder="CVV">
-                            </div>
                         </div>
-                        <div class="form-group">
-                            <div class="col-xs-6">
-                                <select class="form-control" ng-model="pay.newCard.expirationMonth">
-                                    <option value=''>Expiration Month</option><option ng-repeat ="month in cardSelection.months" value="{{month}}">{{month}}</option>
-                                </select>
-                            </div>
-                            <div class="col-xs-6">
-                                <select class="form-control" ng-model="cardSelection.newCard.expirationYear">
-                                    <option value=''>Expiration Year</option><option ng-repeat ="year in cardSelection.years()" value="{{year}}">{{year}}</option>
-                                </select>
-                            </div>
+                    </div>
+                </form>
+            </div>   
+            <!-- RIGHT-->
+            <div class="col-xs-6">
+                <form role="form" name="ccForm2" class="form-horizontal">
+                    <div class="form-group" ng-class="{ 'has-error' : ccForm2.cardCountry.$invalid && ccForm2.cardCountry.$touched }">
+                        <div class="col-xs-12">
+                            <select class="form-control" name="cardCountry" ng-model="pay.newCard.cardCountry" required>
+                                <option value=''>Country</option><option ng-repeat ="c in cardSelection.country()" value="{{c}}">{{c}}</option>
+                            </select>
+                             <p ng-show="ccForm2.cardCountry.$invalid && ccForm2.cardCountry.$touched" class="help-block">Required</p>
                         </div>
-                        <div class="form-group">
-                            <div class="col-xs-12">
-                                <div class="checkbox">
-                                  <label>Save Card<input type="checkbox" ng-model="cardSelection.newCard.saveCard"></label>
-                                </div>
-                            </div>
+                    </div>      
+                    <div class="form-group">                      
+                        <div class="col-xs-6" ng-class="{ 'has-error' : ccForm2.cardState.$invalid && ccForm2.cardState.$touched }">
+                            <select class="form-control" name="cardState" ng-model="pay.newCard.cardState" required>
+                                <option value=''>State</option><option ng-repeat ="s in cardSelection.states()" value="{{s}}">{{s}}</option>
+                            </select>
+                             <p ng-show="ccForm2.cardState.$invalid && ccForm2.cardState.$touched" class="help-block">Required</p>
+                        </div>                       
+                        <div class="col-xs-6"  ng-class="{ 'has-error' : ccForm2.cardZipcode.$invalid && ccForm2.cardZipcode.$touched }">
+                            <input ng-pattern="/^[0-9]+$/" ng-minlength="5" maxlength="5" type="text" name = "cardZipcode" class="form-control" ng-model="pay.newCard.cardZipcode" placeholder="ZIP" required>
+                            <p ng-show="ccForm2.cardZipcode.$invalid && ccForm2.cardZipcode.$touched" class="help-block">Valid ZIP Required</p>
                         </div>
-                    </form>
-                </div>        
-                <div class="col-xs-6">
-                    <form role="form" class="form-horizontal">
-                        <div class="form-group">
-                            <div class="col-xs-12"><input type="text" class="form-control" ng-model="cardSelection.newCard.country" placeholder="Country"></div>
-                        </div> 
-                        <div class="form-group">
-                            <div class="col-xs-12"><input type="text" class="form-control" ng-model="cardSelection.newCard.address1" placeholder="Street Address"></div>
+                    </div>  
+                    <div class="form-group" ng-class="{ 'has-error' : ccForm2.cardCity.$invalid && ccForm2.cardCity.$touched }">
+                        <div class="col-xs-12">
+                            <input type="text" ng-pattern="/^[a-zA-Z\s]*$/" name = "cardCity" class="form-control" ng-model="pay.newCard.cardCity" placeholder="City" required>
+                            <p ng-show="ccForm2.cardCity.$invalid && ccForm2.cardCity.$touched" class="help-block">City Required</p>
+                        </div>                  
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' : ccForm2.cardStreetaddress.$invalid && ccForm2.cardStreetaddress.$touched }">
+                        <div class="col-xs-12">
+                            <input type="text" name = "cardStreetaddress" class="form-control" ng-model="pay.newCard.cardStreetaddress" placeholder="Street Address" required>
+                            <p ng-show="ccForm2.cardStreetaddress.$invalid && ccForm2.cardStreetaddress.$touched" class="help-block">Street Address Required</p>
+                        </div>                  
+                    </div>                   
+                    <div class="form-group">
+                        <div class="col-xs-12"><input type="text" class="form-control" ng-model="pay.newCard.cardAptBuilding" placeholder="Apartment\Suite\Unit #"></div>
+                    </div>   
+                    <div class="form-group">                                           
+                        <div class="col-xs-6"  ng-class="{ 'has-error' : ccForm2.cardPhoneNumber.$invalid && ccForm2.cardPhoneNumber.$touched }">
+                            <input ng-pattern="/^[0-9]+$/" ng-minlength="10" maxlength="10" type="text" name = "cardPhoneNumber" class="form-control" ng-model="pay.newCard.cardPhoneNumber" placeholder="Phone" required>
+                            <p ng-show="ccForm2.cardPhoneNumber.$invalid && ccForm2.cardPhoneNumber.$touched" class="help-block">Valid Phone Required</p>
                         </div>
-                        <div class="form-group">
-                            <div class="col-xs-12"><input type="text" class="form-control" ng-model="cardSelection.newCard.address2" placeholder="Apartment\Suite\Unit #"></div>
+                        <div class="col-xs-6"  ng-class="{ 'has-error' : ccForm2.cardEmailId.$invalid && ccForm2.cardEmailId.$touched }">
+                            <input type="email" name = "cardEmailId" class="form-control" ng-model="pay.newCard.cardEmailId" placeholder="Email" required>
+                            <p ng-show="ccForm2.cardEmailId.$invalid && ccForm2.cardEmailId.$touched" class="help-block">Valid Email Required</p>
                         </div>
-                        <div class="form-group">
-                            <div class="col-xs-12"><input type="text" class="form-control" ng-model="cardSelection.newCard.City" placeholder="City"></div>
+                    </div>  
+                </form>
+            </div>
+        </div>     
+
+        <div class="col-xs-8" ng-switch-when="existing">
+            <div class="well"   ng-class= "cardSelection.classSwitch(card.cardNumber)" ng-repeat="card in cardSelection.existingCards" >
+                <div class="clearfix">
+                    <div class="col-xs-3" ng-click="pay.cardSelect(card); cardSelection.classToggle(card.cardNumber)">
+                        <div class="radio">
+                            <button class="transparent-button">
+                                <span class="glyphicon glyphicon-unchecked"></span> Select
+                            </button>
                         </div>
-                        <div class="form-group">  
-                            <div class="col-xs-6">
-                            <div class="col-xs-6"><input type="text" class="form-control" ng-model="cardSelection.newCard.State" placeholder="State"></div>    
-                            </div>
-                            <div class="col-xs-6"><input type="text" class="form-control" ng-model="cardSelection.newCard.Zip" placeholder="Zip Code"></div>    
-                        </div>  
-                    </form>
-                </div>
-            </div>     
-            
-            <div class="col-xs-8" ng-switch-when="existing">
-                <div class="well" ng-repeat="card in cardSelection.cardList" ng-click="cardSelection.pop(card.number)">
-                    {{card.name}} {{card.number}}
+                    </div>
+                    <div class="col-xs-8  radio">{{card.cardNumber}}</div>
+                    <div class="col-xs-1" ng-click="">
+                        <div class="radio">
+                            <button class="transparent-button" ng-click="cardSelection.deleteCard(card.cardNumber)">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
+
     </div>
+
 
 </div>

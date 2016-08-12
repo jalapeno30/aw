@@ -51,18 +51,43 @@ function gameNumberSet(LotteryGame, $timeout) {
     function gameNumberSetLink(scope, elem, attrs, ctrl) {
         // watch for change in game system
         // this affects the number of elements of selected numbers 
+//        scope.$watch(function(){
+//            return ctrl.system;
+//        }, function(newVal) {
+//            // check if new system has less cardinality as the current number set length
+//            var numSetLength = LotteryGame.getCurrentNumberSet(ctrl.game.gameId).length;
+//            if (!!newVal && newVal.systemNumber < numSetLength/*ctrl.currentNumberSet.length*/) {
+//                // remove last n selected numbers from selected number set
+//                for (var i=numSetLength; i>newVal.systemNumber; i--) {
+//                    var lastNum = LotteryGame.getCurrentNumberSet(ctrl.game.gameId)[i-1];
+//                    LotteryGame.removeNumberFromCurrSet(ctrl.game.gameId, lastNum);
+//                    _toggleNumberSelect(lastNum, elem);
+//                }
+//            }
+//        });
+        
         scope.$watch(function(){
             return ctrl.system;
         }, function(newVal) {
-            // check if new system has less cardinality as the current number set length
-            var numSetLength = LotteryGame.getCurrentNumberSet(ctrl.game.gameId).length;
-            if (!!newVal && newVal.systemNumber < numSetLength/*ctrl.currentNumberSet.length*/) {
-                // remove last n selected numbers from selected number set
-                for (var i=numSetLength; i>newVal.systemNumber; i--) {
-                    var lastNum = LotteryGame.getCurrentNumberSet(ctrl.game.gameId)[i-1];
-                    LotteryGame.removeNumberFromCurrSet(ctrl.game.gameId, lastNum);
-                    _toggleNumberSelect(lastNum, elem);
-                }
+            //this helps LottryGame service. Current Number Set needs to be changed w/o click
+            var noClick=true;
+            //get all number sets
+            var allNumSets = LotteryGame.getNumberSets(ctrl.game.gameId);
+            //iterate through each number set
+            for (var ns = 0; ns < allNumSets.length; ns++){
+                //get length of individual number set
+                var numSetLength = allNumSets[ns].length;
+                //is it greater than the new system value
+                if (!!newVal && newVal.systemNumber < numSetLength) {
+                    //if yes, make the number set current (easier to delete like this)
+                    LotteryGame.setCurrentNumberSet(ctrl.game.gameId, ns, noClick);
+                    // remove last n selected numbers from current number set
+                    for (var i=numSetLength; i>newVal.systemNumber; i--) {
+                        var lastNum = LotteryGame.getCurrentNumberSet(ctrl.game.gameId)[i-1];
+                        LotteryGame.removeNumberFromCurrSet(ctrl.game.gameId, lastNum);
+                        _toggleNumberSelect(lastNum, elem);
+                    }
+                }                
             }
         });
 
@@ -90,8 +115,7 @@ function gameNumberSet(LotteryGame, $timeout) {
                     scope.$apply(function(){
                         ctrl.alertMessage="You have reached maximum numbers allowed for selection";
                         ctrl.alert=true;
-                        $timeout(function () { ctrl.alert = false; }, 2000);  
-                        console.log(ctrl.alert);
+                        $timeout(function () { ctrl.alert = false; }, 2000);
                     })
 
                      //remove first element and add selected number NOT NEEDED ANYMORE  

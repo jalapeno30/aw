@@ -40,6 +40,15 @@ function LotteryGame($http, ENV, $filter, $rootScope) {
     var systems = [];
     var displayNumbers = [];
     var numberSets = [];
+    this.flag = true;
+    
+    function setFlag () {
+        if (this.flag == true){
+            this.flag = false;
+        }else{
+            this.flag = true;
+        }
+    };
     
     function fetchDraws(gameId) {
         return $http({
@@ -195,8 +204,9 @@ function LotteryGame($http, ENV, $filter, $rootScope) {
     function emitEvent(gameId, args) {
         $rootScope.$emit('changeNumberSet-' + gameId, args);
     }
-
-    function setCurrentNumberSet(gameId, setId) {
+    
+    function setCurrentNumberSet(gameId, setId, noClick) {       
+        if(noClick !== undefined) $rootScope.$broadcast('noClick', setId);
         var idx = 0;
         var gameNumberSetIdx = numberSets.indexOf(numberSets.filter(function(numSet){
             return numSet.game === gameId;
@@ -272,6 +282,7 @@ function LotteryGame($http, ENV, $filter, $rootScope) {
     }
 
     return {
+        setFlag: setFlag,
         fetchDraws: fetchDraws,
         getDraws: getDraws,
         fetchSystems: fetchSystems,

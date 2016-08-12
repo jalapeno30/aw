@@ -61,13 +61,21 @@ angular.module('lotteryApp')
     $scope.validate = function(user) {
         var bOk = true;
 
-        if ((user.name.length === 0) || (user.password.length === 0)) {
-            if (user.name.length === 0) {
+        //if no user name (null, undefined, or blank) OR no user password
+        if ((!user.name) || (!user.password)){
+            //if no user name then throw error
+            if (!user.name) {
                 $scope.username_error = true;
             }
-
-            if (user.password.length === 0) {
+            //if there is a username remove error
+            else{
+                $scope.username_error = false;
+            }
+            //same thing for password 
+            if (!user.password) {
                 $scope.password_error = true;
+            }else{
+                $scope.password_error = false;
             }
 
             bOk = false;

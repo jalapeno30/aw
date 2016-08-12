@@ -1,3 +1,14 @@
-<div class="col-xs-12">
-    <h1 class="text-center"> PAYMENT SUCCESS </h1>
+<div class="col-xs-12 top-margin-30">
+   
+    <div class="col-xs-8 col-xs-push-2 ">
+        <div class="well">
+            <h3 class="text-center">Your Order Has Been Successfully Processed</h3>
+            <p><strong>Thank You {{paymentSuccess.name.cardFirstname}}</strong><p>
+            <p>View Orders <a href="">here</a> (dont click yet)</p>
+            <p>Order ID: {{pay.transId}}</p>
+            <p>Date: {{paymentSuccess.d}}</p>
+            <p><strong>Order Total: {{transactionReview.total | currency}}</strong><p>
+        </div>
+    </div>
+
 </div>
